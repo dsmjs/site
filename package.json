@@ -12,7 +12,7 @@
   "homepage": "https://github.com/dsmjs/site#readme",
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
-    "test": "run-s lint:*",
+    "test": "run-s lint:* build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "commitmsg": "validate-commit-msg",
