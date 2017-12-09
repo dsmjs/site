@@ -17,6 +17,7 @@
     "develop": "gatsby develop",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
+    "deploy": "gh-pages -r \"https://$GH_TOKEN@github.com/dsmjs/site.git\" -d public/",
     "greenkeeper:update-lockfile": "greenkeeper-lockfile-update",
     "greenkeeper:upload-lockfile": "greenkeeper-lockfile-upload"
   },
