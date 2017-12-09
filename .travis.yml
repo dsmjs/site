@@ -5,7 +5,6 @@ before_script:
 - npm ls >/dev/null
 - npm run greenkeeper:update-lockfile
 before_deploy:
-  - npm run build
   - git config --global user.email "$GIT_EMAIL"
   - git config --global user.name "dsmJS Bot"
 deploy:
