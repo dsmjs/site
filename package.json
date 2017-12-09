@@ -3,12 +3,18 @@
   "description": "Primary website for the dsmJS user-group",
   "license": "MIT",
   "author": "dsmJS",
+  "maintainers": [
+    "Matt Travi <npm@travi.org> (https://matt.travi.org/)"
+  ],
+  "private": true,
   "repository": "dsmjs/site",
   "bugs": "https://github.com/dsmjs/site/issues",
   "homepage": "https://github.com/dsmjs/site#readme",
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "test": "run-s lint:*",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
     "greenkeeper:update-lockfile": "greenkeeper-lockfile-update",
@@ -27,5 +33,11 @@
     "markdownlint-cli": "0.5.0",
     "npm-run-all": "4.1.2",
     "validate-commit-msg": "2.14.0"
+  },
+  "dependencies": {
+    "gatsby": "1.9.128",
+    "gatsby-link": "1.6.30",
+    "gatsby-plugin-react-helmet": "2.0.2",
+    "react-helmet": "5.2.0"
   }
 }
