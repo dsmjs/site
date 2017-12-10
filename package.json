@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "gatsby": "1.9.129",
-    "gatsby-link": "1.6.30",
+    "gatsby-link": "1.6.31",
     "gatsby-plugin-react-helmet": "2.0.2",
     "react-helmet": "5.2.0"
   }
