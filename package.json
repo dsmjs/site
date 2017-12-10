@@ -37,9 +37,9 @@
     "validate-commit-msg": "2.14.0"
   },
   "dependencies": {
-    "gatsby": "1.9.128",
+    "gatsby": "1.9.129",
     "gatsby-link": "1.6.31",
-    "gatsby-plugin-react-helmet": "2.0.3",
+    "gatsby-plugin-react-helmet": "2.0.2",
     "react-helmet": "5.2.0"
   }
 }
