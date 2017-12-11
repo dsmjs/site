@@ -1,6 +1,6 @@
 # site
 
-Primary website for the dsmJS user-group
+Primary website for the dsmJS user-group, built with [Gatsby](https://www.gatsbyjs.org/)
 
 [![Build Status](https://img.shields.io/travis/dsmjs/site.svg?style=flat&branch=master)](https://travis-ci.org/dsmjs/site)
 
