@@ -6,3 +6,20 @@ Primary website for the dsmJS user-group
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dsmjs/site.svg)](https://greenkeeper.io/)
+
+## Local Development
+
+### Setup
+
+```sh
+$ npm install
+```
+
+### Run the site in development mode
+
+```sh
+$ npm run develop
+```
+
+Navigate to the url printed in the terminal to view the local site. Changes that
+you make will automatically hot-reload in the browser.
