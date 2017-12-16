@@ -12,6 +12,7 @@
   "homepage": "https://github.com/dsmjs/site#readme",
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
+    "lint:js": "eslint . --cache",
     "test": "run-s lint:* build",
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -27,6 +28,7 @@
     }
   },
   "devDependencies": {
+    "@travi/eslint-config-travi": "1.6.0",
     "commitlint-config-dsmjs": "1.0.2",
     "cz-conventional-changelog": "2.1.0",
     "gh-pages": "1.1.0",
@@ -43,6 +45,8 @@
     "gatsby-plugin-glamor": "1.6.10",
     "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-react-helmet": "2.0.2",
+    "prop-types": "15.6.0",
+    "react": "16.2.0",
     "react-helmet": "5.2.0"
   }
 }
