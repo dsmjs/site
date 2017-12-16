@@ -15,7 +15,7 @@
     "test": "run-s lint:* build",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "commitmsg": "validate-commit-msg",
+    "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "deploy": "gh-pages -r \"https://$GH_TOKEN@github.com/dsmjs/site.git\" -d public/",
     "greenkeeper:update-lockfile": "greenkeeper-lockfile-update",
@@ -27,14 +27,14 @@
     }
   },
   "devDependencies": {
+    "commitlint-config-dsmjs": "1.0.2",
     "cz-conventional-changelog": "2.1.0",
     "gh-pages": "1.1.0",
     "globstar": "1.0.0",
     "greenkeeper-lockfile": "1.12.0",
     "husky": "0.14.3",
     "markdownlint-cli": "0.5.0",
-    "npm-run-all": "4.1.2",
-    "validate-commit-msg": "2.14.0"
+    "npm-run-all": "4.1.2"
   },
   "dependencies": {
     "@dsmjs/components": "1.0.5",
