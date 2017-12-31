@@ -39,7 +39,7 @@
     "npm-run-all": "4.1.2"
   },
   "dependencies": {
-    "@dsmjs/components": "1.0.5",
+    "@dsmjs/components": "1.0.6",
     "gatsby": "1.9.138",
     "gatsby-link": "1.6.32",
     "gatsby-plugin-glamor": "1.6.10",
