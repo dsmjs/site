@@ -16,6 +16,7 @@
     "test": "run-s lint:* build",
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "start": "run-s develop",
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "deploy": "gh-pages -r \"https://$GH_TOKEN@github.com/dsmjs/site.git\" -d public/",
@@ -40,13 +41,14 @@
   },
   "dependencies": {
     "@dsmjs/components": "1.0.6",
-    "gatsby": "1.9.138",
+    "gatsby": "1.9.149",
     "gatsby-link": "1.6.32",
     "gatsby-plugin-glamor": "1.6.10",
     "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-react-helmet": "2.0.2",
     "prop-types": "15.6.0",
     "react": "16.2.0",
+    "react-dom": "16.2.0",
     "react-helmet": "5.2.0"
   }
 }
