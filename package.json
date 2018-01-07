@@ -29,7 +29,7 @@
     }
   },
   "devDependencies": {
-    "@travi/eslint-config-travi": "1.6.0",
+    "@travi/eslint-config-travi": "1.6.1",
     "commitlint-config-dsmjs": "1.0.2",
     "cz-conventional-changelog": "2.1.0",
     "gh-pages": "1.1.0",
