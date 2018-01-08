@@ -42,7 +42,7 @@
   "dependencies": {
     "@dsmjs/components": "1.0.6",
     "gatsby": "1.9.150",
-    "gatsby-link": "1.6.32",
+    "gatsby-link": "1.6.33",
     "gatsby-plugin-glamor": "1.6.10",
     "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-react-helmet": "2.0.2",
