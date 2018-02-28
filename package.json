@@ -45,7 +45,7 @@
     "gatsby-link": "1.6.38",
     "gatsby-plugin-glamor": "1.6.11",
     "gatsby-plugin-google-fonts": "0.0.3",
-    "gatsby-plugin-react-helmet": "2.0.5",
+    "gatsby-plugin-react-helmet": "2.0.6",
     "prop-types": "15.6.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
