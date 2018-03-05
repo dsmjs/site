@@ -5,7 +5,10 @@ import {Layout} from '@dsmjs/components';
 
 export default function SiteLayout({children, data}) {
   return (
-    <Layout sponsor="foo" location="bar">
+    <Layout
+      sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor}
+      location={data.allMarkdownRemark.edges[0].node.frontmatter.location}
+    >
       <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
       {children()}
     </Layout>
@@ -28,6 +31,16 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            sponsor
+            location
+          }
+        }
       }
     }
   }

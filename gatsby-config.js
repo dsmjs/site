@@ -3,6 +3,7 @@ module.exports = {
     title: 'dsmJS  - Des Moines JavaScript User Group'
   },
   plugins: [
+    'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-glamor',
     {
@@ -11,6 +12,13 @@ module.exports = {
         fonts: [
           'quicksand:400,500,700'
         ]
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'meetings',
+        path: `${__dirname}/src/meetings`
       }
     }
   ]
