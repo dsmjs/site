@@ -44,7 +44,7 @@
     "gatsby": "1.9.232",
     "gatsby-link": "1.6.39",
     "gatsby-plugin-glamor": "1.6.13",
-    "gatsby-plugin-google-fonts": "0.0.3",
+    "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "2.0.6",
     "gatsby-source-filesystem": "1.5.27",
     "gatsby-transformer-remark": "1.7.36",
