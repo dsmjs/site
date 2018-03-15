@@ -47,7 +47,7 @@
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "2.0.6",
     "gatsby-source-filesystem": "1.5.27",
-    "gatsby-transformer-remark": "1.7.36",
+    "gatsby-transformer-remark": "1.7.37",
     "prop-types": "15.6.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
