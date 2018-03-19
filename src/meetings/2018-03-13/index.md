@@ -12,4 +12,10 @@ host:
 sponsor:
   name: Robert Half
   site: https://www.roberthalf.com/ia-des-moines
+talk: 
+  title: An Introduction to Transducers
+  tags: Functional Programming
+  speaker: Eric Ponto
+  twitter: ericponto
+  slides: http://slides.ericponto.com/dsmjs-intro-to-transducers/
 ---
