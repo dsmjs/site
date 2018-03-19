@@ -7,6 +7,7 @@ export default function SiteIndex({data}) {
     <CurrentMeeting
       sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor}
       meeting={data.allMarkdownRemark.edges[0].node.frontmatter.meeting}
+      host={data.allMarkdownRemark.edges[0].node.frontmatter.host}
     />
   );
 }
@@ -31,6 +32,9 @@ export const query = graphql`
             sponsor {
               name
               site
+            }
+            host {
+              location
             }
           }
         }
