@@ -4,10 +4,12 @@ import Helmet from 'react-helmet';
 import {Layout} from '@dsmjs/components';
 
 export default function SiteLayout({children, data}) {
+  const {host} = data.allMarkdownRemark.edges[0].node.frontmatter;
+
   return (
     <Layout
-      sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor}
-      location={data.allMarkdownRemark.edges[0].node.frontmatter.location}
+      sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor.name}
+      location={`${host.location} ${host.city}, ${host.state} ${host.zip}`}
     >
       <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
       {children()}
@@ -37,8 +39,15 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            sponsor
-            location
+            sponsor {
+              name
+            }
+            host {
+              location
+              city
+              state
+              zip
+            }
           }
         }
       }
