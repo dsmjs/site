@@ -3,11 +3,14 @@ import {shape} from 'prop-types';
 import {CurrentMeeting} from '@dsmjs/components';
 
 export default function SiteIndex({data}) {
+  const {frontmatter} = data.allMarkdownRemark.edges[0].node;
+
   return (
     <CurrentMeeting
-      sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor}
-      meeting={data.allMarkdownRemark.edges[0].node.frontmatter.meeting}
-      host={data.allMarkdownRemark.edges[0].node.frontmatter.host}
+      sponsor={frontmatter.sponsor}
+      meeting={frontmatter.meeting}
+      host={frontmatter.host}
+      talk={frontmatter.talk}
     />
   );
 }
@@ -35,6 +38,10 @@ export const query = graphql`
             }
             host {
               location
+            }
+            talk {
+              title
+              speaker
             }
           }
         }
