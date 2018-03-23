@@ -36,12 +36,12 @@
     "globstar": "1.0.0",
     "greenkeeper-lockfile": "1.14.0",
     "husky": "0.15.0-rc.12",
-    "markdownlint-cli": "0.7.1",
+    "markdownlint-cli": "0.8.0",
     "npm-run-all": "4.1.2"
   },
   "dependencies": {
     "@dsmjs/components": "1.2.0",
-    "gatsby": "1.9.237",
+    "gatsby": "1.9.239",
     "gatsby-link": "1.6.39",
     "gatsby-plugin-glamor": "1.6.13",
     "gatsby-plugin-google-fonts": "0.0.4",
