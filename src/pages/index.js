@@ -3,7 +3,7 @@ import {shape} from 'prop-types';
 import {CurrentMeeting} from '@dsmjs/components';
 
 export default function SiteIndex({data}) {
-  const {frontmatter} = data.allMarkdownRemark.edges[0].node;
+  const {frontmatter, html} = data.allMarkdownRemark.edges[0].node;
 
   return (
     <CurrentMeeting
@@ -11,6 +11,7 @@ export default function SiteIndex({data}) {
       meeting={frontmatter.meeting}
       host={frontmatter.host}
       talk={frontmatter.talk}
+      content={html}
     />
   );
 }
@@ -24,6 +25,7 @@ export const query = graphql`
     allMarkdownRemark {
       edges {
         node {
+          html
           frontmatter {
             meeting {
               date(formatString: "MMMM DD, YYYY")
