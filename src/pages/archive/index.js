@@ -1,17 +1,22 @@
 import React from 'react';
 import {arrayOf, shape, string} from 'prop-types';
+import Link from 'gatsby-link';
 
 export default function Archive({data}) {
   const meetings = data.allMarkdownRemark.edges;
 
   return (
     <ol>
-      {meetings.map(meeting => (
-        <li key={meeting.node.fields.slug}>
-          <h4>{meeting.node.frontmatter.meeting.date}</h4>
-          <h5>{meeting.node.frontmatter.talk.title}</h5>
-        </li>
-      ))}
+      {meetings.map(meeting => {
+        const {meeting: meetingDetails, talk} = meeting.node.frontmatter;
+
+        return (
+          <li key={meeting.node.fields.slug}>
+            <h4><Link to={meeting.node.fields.slug}>{meetingDetails.date}</Link></h4>
+            <h5>{talk.title}</h5>
+          </li>
+        );
+      })}
     </ol>
   );
 }
