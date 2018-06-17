@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-transformer-remark',
+    'gatsby-remark-prismjs',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-glamor',
     {
