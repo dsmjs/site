@@ -2,6 +2,7 @@ import React from 'react';
 import {node, shape, string} from 'prop-types';
 import Helmet from 'react-helmet';
 import {Layout} from '@dsmjs/components';
+import 'prismjs/themes/prism-solarizedlight.css';
 
 export default function SiteLayout({children, data}) {
   const {host} = data.allMarkdownRemark.edges[0].node.frontmatter;
