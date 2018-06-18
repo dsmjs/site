@@ -2,11 +2,17 @@ module.exports = {
   siteMetadata: {
     title: 'dsmJS  - Des Moines JavaScript User Group'
   },
+  mapping: {
+    'MarkdownRemark.frontmatter.talk.speaker': 'MarkdownRemark.frontmatter.name'
+  },
   plugins: [
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['gatsby-remark-prismjs']
+        plugins: [
+          'gatsby-remark-prismjs',
+          'gatsby-remark-autolink-headers'
+        ]
       }
     },
     'gatsby-plugin-react-helmet',
@@ -24,6 +30,13 @@ module.exports = {
       options: {
         name: 'meetings',
         path: `${__dirname}/src/meetings`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'speakers',
+        path: `${__dirname}/src/speakers`
       }
     }
   ]

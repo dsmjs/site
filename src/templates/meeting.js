@@ -21,8 +21,8 @@ ArchivedMeeting.propTypes = {
     markdownRemark: shape({
       node: shape({
         frontmatter: shape({
-          meeting: shape({date: string}),
-          talk: shape({title: string})
+          meeting: shape({date: string}).isRequired,
+          talk: shape({title: string}).isRequired
         })
       })
     })
@@ -50,7 +50,11 @@ export const query = graphql`
         }
         talk {
           title
-          speaker
+          speaker {
+            frontmatter {
+              name
+            }
+          }
         }
       }
     }

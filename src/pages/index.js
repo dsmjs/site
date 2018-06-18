@@ -22,7 +22,10 @@ SiteIndex.propTypes = {
 
 export const query = graphql`
   query CurrentMeetingQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: {regex : "\\/meetings/"} },
+      sort: { fields: [frontmatter___meeting___date], order: DESC }
+    ) {
       edges {
         node {
           html
@@ -43,7 +46,11 @@ export const query = graphql`
             }
             talk {
               title
-              speaker
+              speaker {
+                frontmatter {
+                  name
+                }
+              }
             }
           }
         }

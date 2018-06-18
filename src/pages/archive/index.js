@@ -27,8 +27,8 @@ Archive.propTypes = {
       edges: arrayOf(shape({
         node: shape({
           frontmatter: shape({
-            meeting: shape({date: string}),
-            talk: shape({title: string})
+            meeting: shape({date: string}).isRequired,
+            talk: shape({title: string}).isRequired
           })
         })
       }))
@@ -38,7 +38,10 @@ Archive.propTypes = {
 
 export const meetingsQuery = graphql`
   query MeetingsQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___meeting___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: {regex : "\\/meetings/"} },
+      sort: { fields: [frontmatter___meeting___date], order: DESC }
+    ) {
       edges {
         node {
           fields {

@@ -16,7 +16,6 @@ talk:
   title: An Introduction to Transducers
   tags: Functional Programming
   speaker: Eric Ponto
-  twitter: ericponto
   slides: http://slides.ericponto.com/dsmjs-intro-to-transducers/
 ---
 
