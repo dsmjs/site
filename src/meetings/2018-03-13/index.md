@@ -4,11 +4,7 @@ meeting:
   time:
     start: 6:00pm
     end: 7:00pm
-host:
-  location: Gravitate, 317 6th Ave, Suite 10
-  city: Des Moines
-  state: IA
-  zip: 50309
+host: Gravitate
 sponsor: Robert Half
 talk: An Introduction to Transducers
 ---

@@ -4,11 +4,7 @@ meeting:
   time:
     start: 6:00pm
     end: 7:00pm
-host:
-  location: 4501 NW Urbandale Dr
-  city: Urbandale
-  state: IA
-  zip: 50322
+host: Source Allies
 sponsor: Source Allies
 talk: Serverless through AWS SAM
 ---

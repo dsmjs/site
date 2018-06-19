@@ -9,7 +9,7 @@ export default function SiteIndex({data}) {
     <CurrentMeeting
       sponsor={frontmatter.sponsor.frontmatter}
       meeting={frontmatter.meeting}
-      host={frontmatter.host}
+      host={frontmatter.host.frontmatter}
       talk={frontmatter.talk.frontmatter}
       content={frontmatter.talk.html}
     />
@@ -44,7 +44,10 @@ export const query = graphql`
               }
             }
             host {
-              location
+              frontmatter {
+                location
+                address
+              }
             }
             talk {
               html

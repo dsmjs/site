@@ -6,11 +6,12 @@ import 'prismjs/themes/prism-solarizedlight.css';
 
 export default function SiteLayout({children, data}) {
   const {host} = data.allMarkdownRemark.edges[0].node.frontmatter;
+  const {location, address, city, state, zip} = host.frontmatter;
 
   return (
     <Layout
       sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor.frontmatter.name}
-      location={`${host.location} ${host.city}, ${host.state} ${host.zip}`}
+      location={`${location}, ${address} ${city}, ${state} ${zip}`}
     >
       <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
       {children()}
@@ -47,13 +48,16 @@ export const query = graphql`
               frontmatter{
                 name
               }
-            } 
-            host {
-              location
-              city
-              state
-              zip
             }
+            host {
+              frontmatter {
+                location
+                address
+                city
+                state
+                zip
+              }
+            }          
           }
         }
       }

@@ -5,7 +5,8 @@ module.exports = {
   mapping: {
     'MarkdownRemark.frontmatter.talk': 'MarkdownRemark.frontmatter.title',
     'MarkdownRemark.frontmatter.speaker': 'MarkdownRemark.frontmatter.name',
-    'MarkdownRemark.frontmatter.sponsor': 'MarkdownRemark.frontmatter.name'
+    'MarkdownRemark.frontmatter.sponsor': 'MarkdownRemark.frontmatter.name',
+    'MarkdownRemark.frontmatter.host': 'MarkdownRemark.frontmatter.location'
   },
   plugins: [
     {
@@ -53,6 +54,13 @@ module.exports = {
       options: {
         name: 'sponsors',
         path: `${__dirname}/src/sponsors`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'hosts',
+        path: `${__dirname}/src/hosts`
       }
     }
   ]
