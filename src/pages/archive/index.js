@@ -8,12 +8,12 @@ export default function Archive({data}) {
   return (
     <ol>
       {meetings.map(meeting => {
-        const {meeting: meetingDetails, talk} = meeting.node.frontmatter;
+        const meetingDetails = meeting.node.frontmatter;
 
         return (
           <li key={meeting.node.fields.slug}>
             <h4><Link to={meeting.node.fields.slug}>{meetingDetails.date}</Link></h4>
-            <h5>{talk.title}</h5>
+            <h5>{meetingDetails.talk.title}</h5>
           </li>
         );
       })}
@@ -40,7 +40,7 @@ export const meetingsQuery = graphql`
   query MeetingsQuery {
     allMarkdownRemark(
       filter: { fileAbsolutePath: {regex : "\\/meetings/"} },
-      sort: { fields: [frontmatter___meeting___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
@@ -48,9 +48,7 @@ export const meetingsQuery = graphql`
             slug
           }
           frontmatter {
-            meeting {
-              date(formatString: "MMMM DD, YYYY")
-            }
+            date(formatString: "MMMM DD, YYYY")
             talk {
               frontmatter {
                 title

@@ -8,7 +8,7 @@ export default function SiteIndex({data}) {
   return (
     <CurrentMeeting
       sponsor={frontmatter.sponsor.frontmatter}
-      meeting={frontmatter.meeting}
+      meeting={frontmatter}
       host={frontmatter.host.frontmatter}
       talk={frontmatter.talk.frontmatter}
       content={frontmatter.talk.html}
@@ -24,18 +24,16 @@ export const query = graphql`
   query CurrentMeetingQuery {
     allMarkdownRemark(
       filter: { fileAbsolutePath: {regex : "\\/meetings/"} },
-      sort: { fields: [frontmatter___meeting___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
           html
           frontmatter {
-            meeting {
-              date(formatString: "MMMM DD, YYYY")
-              time {
-                start
-                end
-              }
+            date(formatString: "MMMM DD, YYYY")
+            time {
+              start
+              end
             }
             sponsor {
               frontmatter {

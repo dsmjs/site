@@ -8,7 +8,7 @@ export default function ArchivedMeeting({data}) {
   return (
     <Meeting
       sponsor={frontmatter.sponsor.frontmatter}
-      meeting={frontmatter.meeting}
+      meeting={frontmatter}
       host={frontmatter.host.frontmatter}
       talk={frontmatter.talk.frontmatter}
       content={frontmatter.talk.html}
@@ -33,12 +33,10 @@ export const query = graphql`
   query MeetingQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
-        meeting {
-          date(formatString: "MMMM DD, YYYY")
-          time {
-            start
-            end
-          }
+        date(formatString: "MMMM DD, YYYY")
+        time {
+          start
+          end
         }
         sponsor {
           frontmatter {
