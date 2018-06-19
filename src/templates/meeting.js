@@ -3,15 +3,15 @@ import {shape, string} from 'prop-types';
 import {Meeting} from '@dsmjs/components';
 
 export default function ArchivedMeeting({data}) {
-  const {frontmatter, html} = data.markdownRemark;
+  const {frontmatter} = data.markdownRemark;
 
   return (
     <Meeting
       sponsor={frontmatter.sponsor}
       meeting={frontmatter.meeting}
       host={frontmatter.host}
-      talk={frontmatter.talk}
-      content={html}
+      talk={frontmatter.talk.frontmatter}
+      content={frontmatter.talk.html}
     />
   );
 }
@@ -32,7 +32,6 @@ ArchivedMeeting.propTypes = {
 export const query = graphql`
   query MeetingQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
       frontmatter {
         meeting {
           date(formatString: "MMMM DD, YYYY")
@@ -49,13 +48,16 @@ export const query = graphql`
           location
         }
         talk {
-          title
-          speaker {
-            frontmatter {
-              name
+          html
+          frontmatter {
+            title
+            speaker {
+              frontmatter {
+                name
+              }
             }
           }
-        }
+        } 
       }
     }
   }

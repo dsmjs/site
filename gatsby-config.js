@@ -3,7 +3,8 @@ module.exports = {
     title: 'dsmJS  - Des Moines JavaScript User Group'
   },
   mapping: {
-    'MarkdownRemark.frontmatter.talk.speaker': 'MarkdownRemark.frontmatter.name'
+    'MarkdownRemark.frontmatter.talk': 'MarkdownRemark.frontmatter.title',
+    'MarkdownRemark.frontmatter.speaker': 'MarkdownRemark.frontmatter.name'
   },
   plugins: [
     {
@@ -30,6 +31,13 @@ module.exports = {
       options: {
         name: 'meetings',
         path: `${__dirname}/src/meetings`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'talks',
+        path: `${__dirname}/src/talks`
       }
     },
     {
