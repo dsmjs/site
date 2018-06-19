@@ -7,7 +7,7 @@ export default function SiteIndex({data}) {
 
   return (
     <CurrentMeeting
-      sponsor={frontmatter.sponsor}
+      sponsor={frontmatter.sponsor.frontmatter}
       meeting={frontmatter.meeting}
       host={frontmatter.host}
       talk={frontmatter.talk.frontmatter}
@@ -38,8 +38,10 @@ export const query = graphql`
               }
             }
             sponsor {
-              name
-              site
+              frontmatter {
+                name
+                site
+              }
             }
             host {
               location
@@ -54,7 +56,7 @@ export const query = graphql`
                   }
                 }
               }
-            }          
+            }
           }
         }
       }

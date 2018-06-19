@@ -9,8 +9,6 @@ host:
   city: Des Moines
   state: IA
   zip: 50309
-sponsor:
-  name: Robert Half
-  site: https://www.roberthalf.com/ia-des-moines
+sponsor: Robert Half
 talk: An Introduction to Transducers
 ---

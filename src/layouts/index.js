@@ -9,7 +9,7 @@ export default function SiteLayout({children, data}) {
 
   return (
     <Layout
-      sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor.name}
+      sponsor={data.allMarkdownRemark.edges[0].node.frontmatter.sponsor.frontmatter.name}
       location={`${host.location} ${host.city}, ${host.state} ${host.zip}`}
     >
       <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
@@ -44,8 +44,10 @@ export const query = graphql`
         node {
           frontmatter {
             sponsor {
-              name
-            }
+              frontmatter{
+                name
+              }
+            } 
             host {
               location
               city

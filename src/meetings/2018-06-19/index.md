@@ -9,8 +9,6 @@ host:
   city: Urbandale
   state: IA
   zip: 50322
-sponsor:
-  name: Source Allies
-  site: http://www.sourceallies.com/
+sponsor: Source Allies
 talk: Serverless through AWS SAM
 ---
