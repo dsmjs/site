@@ -3,15 +3,15 @@ import {shape} from 'prop-types';
 import {CurrentMeeting} from '@dsmjs/components';
 
 export default function SiteIndex({data}) {
-  const {frontmatter, html} = data.allMarkdownRemark.edges[0].node;
+  const {frontmatter} = data.allMarkdownRemark.edges[0].node;
 
   return (
     <CurrentMeeting
-      sponsor={frontmatter.sponsor}
-      meeting={frontmatter.meeting}
-      host={frontmatter.host}
-      talk={frontmatter.talk}
-      content={html}
+      sponsor={frontmatter.sponsor.frontmatter}
+      meeting={frontmatter}
+      host={frontmatter.host.frontmatter}
+      talk={frontmatter.talk.frontmatter}
+      content={frontmatter.talk.html}
     />
   );
 }
@@ -22,28 +22,41 @@ SiteIndex.propTypes = {
 
 export const query = graphql`
   query CurrentMeetingQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: {regex : "\\/meetings/"} },
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           html
           frontmatter {
-            meeting {
-              date(formatString: "MMMM DD, YYYY")
-              time {
-                start
-                end
-              }
+            date(formatString: "MMMM DD, YYYY")
+            time {
+              start
+              end
             }
             sponsor {
-              name
-              site
+              frontmatter {
+                name
+                site
+              }
             }
             host {
-              location
+              frontmatter {
+                location
+                address
+              }
             }
             talk {
-              title
-              speaker
+              html
+              frontmatter {
+                title
+                speaker {
+                  frontmatter {
+                    name
+                  }
+                }
+              }
             }
           }
         }

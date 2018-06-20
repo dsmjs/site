@@ -22,6 +22,9 @@ exports.createPages = ({graphql, boundActionCreators}) => {
         allMarkdownRemark {
           edges {
             node {
+              frontmatter {
+                date
+              }
               fields {
                 slug
               }
@@ -31,11 +34,13 @@ exports.createPages = ({graphql, boundActionCreators}) => {
       }
     `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({node}) => {
-      createPage({
-        path: node.fields.slug,
-        component: path.resolve('./src/templates/meeting.js'),
-        context: {slug: node.fields.slug}
-      });
+      if (node.frontmatter.date) {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve('./src/templates/meeting.js'),
+          context: {slug: node.fields.slug}
+        });
+      }
     });
   });
 };
