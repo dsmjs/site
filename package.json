@@ -9,7 +9,7 @@
   "private": true,
   "repository": "dsmjs/site",
   "bugs": "https://github.com/dsmjs/site/issues",
-  "homepage": "https://github.com/dsmjs/site#readme",
+  "homepage": "http://dsmjs.netlify.com/",
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "lint:js": "eslint . --cache",
