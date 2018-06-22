@@ -3,6 +3,7 @@ lib/
 .nyc_output/
 
 .eslintcache
+.netlify
 
 # Gatsby directories
 .cache/

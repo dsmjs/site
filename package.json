@@ -19,7 +19,9 @@
     "start": "run-s develop",
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
-    "deploy": "gh-pages -r \"https://$GH_TOKEN@github.com/dsmjs/site.git\" -d public/",
+    "deploy": "run-p --print-label deploy:*",
+    "deploy:gh-pages": "gh-pages -r \"https://$GH_TOKEN@github.com/dsmjs/site.git\" -d public/",
+    "deploy:netlify": "netlify deploy --site-id $NETLIFY_SITE_ID --access-token $NETLIFY_ACCESS_TOKEN --path ./public",
     "greenkeeper:update-lockfile": "greenkeeper-lockfile-update",
     "greenkeeper:upload-lockfile": "greenkeeper-lockfile-upload"
   },
@@ -37,6 +39,7 @@
     "greenkeeper-lockfile": "1.15.1",
     "husky": "1.0.0-rc.9",
     "markdownlint-cli": "0.10.0",
+    "netlify-cli": "1.2.2",
     "npm-run-all": "4.1.3"
   },
   "dependencies": {
