@@ -1,2 +1,4 @@
+extends: '@travi/travi/rules/react'
+
 globals:
   graphql: true
