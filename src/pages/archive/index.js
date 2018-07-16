@@ -1,24 +1,11 @@
 import React from 'react';
 import {arrayOf, shape, string} from 'prop-types';
-import Link from 'gatsby-link';
+import {Archive as ArchivePage} from '@dsmjs/components';
 
 export default function Archive({data}) {
   const meetings = data.allMarkdownRemark.edges;
 
-  return (
-    <ol>
-      {meetings.map(meeting => {
-        const meetingDetails = meeting.node.frontmatter;
-
-        return (
-          <li key={meeting.node.fields.slug}>
-            <h4><Link to={meeting.node.fields.slug}>{meetingDetails.date}</Link></h4>
-            <h5>{meetingDetails.talk.title}</h5>
-          </li>
-        );
-      })}
-    </ol>
-  );
+  return <ArchivePage meetings={meetings} />;
 }
 
 Archive.propTypes = {
