@@ -24,3 +24,13 @@ labels:
     color: ffffff
   - name: greenkeeper
     color: 00c775
+  - name: feature parity with legacy site
+    color: 5146f2
+  - name: feature missing from old site
+    color: 8eedd0
+  - name: good first issue
+    color: 7057ff
+  - name: semantic-release
+    color: ededed
+  - name: security
+    color: f7de00
