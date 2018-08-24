@@ -20,7 +20,6 @@
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "deploy": "run-p --print-label deploy:*",
-    "deploy:gh-pages": "gh-pages -r \"https://$GH_TOKEN@github.com/dsmjs/site.git\" -d public/",
     "deploy:netlify": "netlify deploy --site-id $NETLIFY_SITE_ID --access-token $NETLIFY_ACCESS_TOKEN --path ./public",
     "greenkeeper:update-lockfile": "greenkeeper-lockfile-update",
     "greenkeeper:upload-lockfile": "greenkeeper-lockfile-upload"
