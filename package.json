@@ -51,7 +51,7 @@
     "gatsby-remark-autolink-headers": "1.4.19",
     "gatsby-remark-prismjs": "3.0.0",
     "gatsby-source-filesystem": "1.5.39",
-    "gatsby-transformer-remark": "1.7.44",
+    "gatsby-transformer-remark": "2.1.1",
     "prismjs": "1.15.0",
     "prop-types": "15.6.2",
     "react": "16.5.0",
