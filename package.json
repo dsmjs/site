@@ -33,7 +33,6 @@
     "@travi/eslint-config-travi": "1.6.14",
     "commitlint-config-dsmjs": "1.0.3",
     "cz-conventional-changelog": "2.1.0",
-    "gh-pages": "2.0.0",
     "globstar": "1.0.0",
     "greenkeeper-lockfile": "1.15.1",
     "husky": "1.0.0-rc.9",
