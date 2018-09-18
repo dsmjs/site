@@ -48,7 +48,7 @@
     "gatsby-plugin-glamor": "2.0.5",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "2.0.11",
-    "gatsby-remark-autolink-headers": "1.4.19",
+    "gatsby-remark-autolink-headers": "2.0.5",
     "gatsby-remark-prismjs": "2.0.5",
     "gatsby-source-filesystem": "1.5.39",
     "gatsby-transformer-remark": "1.7.44",
