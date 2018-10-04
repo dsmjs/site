@@ -7,21 +7,13 @@ import Layout from '../components/layout';
 export default function ArchivedMeeting({data}) {
   const {frontmatter} = data.markdownRemark;
 
-  // TODO: this is janky, the @dsmjs/components CurrentMeeting component needs updated
-  const talk = {
-    ...frontmatter.talk.frontmatter,
-    speaker: {
-      frontmatter: frontmatter.talk.frontmatter.speaker
-    }
-  };
-
   return (
     <Layout>
       <Meeting
         sponsor={frontmatter.sponsor.frontmatter}
         meeting={frontmatter}
         host={frontmatter.host.frontmatter}
-        talk={talk}
+        talk={frontmatter.talk.frontmatter}
         content={frontmatter.talk.html}
       />
     </Layout>
@@ -67,7 +59,9 @@ export const query = graphql`
           frontmatter {
             title
             speaker {
-              name
+              frontmatter {
+                name
+              }
             }
           }
         }
