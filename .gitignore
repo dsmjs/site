@@ -8,3 +8,7 @@ lib/
 # Gatsby directories
 .cache/
 public/
+
+# Mac files
+.DS_Store
+

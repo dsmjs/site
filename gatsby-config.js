@@ -32,35 +32,35 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'meetings',
-        path: `${__dirname}/src/meetings`
+        path: `${__dirname}/content/meetings`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'talks',
-        path: `${__dirname}/src/talks`
+        path: `${__dirname}/content/talks`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'speakers',
-        path: `${__dirname}/src/speakers`
+        path: `${__dirname}/content/speakers`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'sponsors',
-        path: `${__dirname}/src/sponsors`
+        path: `${__dirname}/content/sponsors`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'hosts',
-        path: `${__dirname}/src/hosts`
+        path: `${__dirname}/content/hosts`
       }
     }
   ]

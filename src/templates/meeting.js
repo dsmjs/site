@@ -1,18 +1,22 @@
 import React from 'react';
 import {shape, string} from 'prop-types';
+import {graphql} from 'gatsby';
 import {Meeting} from '@dsmjs/components';
+import Layout from '../components/layout';
 
 export default function ArchivedMeeting({data}) {
   const {frontmatter} = data.markdownRemark;
 
   return (
-    <Meeting
-      sponsor={frontmatter.sponsor.frontmatter}
-      meeting={frontmatter}
-      host={frontmatter.host.frontmatter}
-      talk={frontmatter.talk.frontmatter}
-      content={frontmatter.talk.html}
-    />
+    <Layout>
+      <Meeting
+        sponsor={frontmatter.sponsor.frontmatter}
+        meeting={frontmatter}
+        host={frontmatter.host.frontmatter}
+        talk={frontmatter.talk.frontmatter}
+        content={frontmatter.talk.html}
+      />
+    </Layout>
   );
 }
 

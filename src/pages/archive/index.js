@@ -1,11 +1,17 @@
 import React from 'react';
 import {arrayOf, shape, string} from 'prop-types';
+import {graphql} from 'gatsby';
 import {Archive as ArchivePage} from '@dsmjs/components';
+import Layout from '../../components/layout';
 
 export default function Archive({data}) {
   const meetings = data.allMarkdownRemark.edges;
 
-  return <ArchivePage meetings={meetings} />;
+  return (
+    <Layout>
+      <ArchivePage meetings={meetings} />
+    </Layout>
+  );
 }
 
 Archive.propTypes = {

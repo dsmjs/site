@@ -1,18 +1,22 @@
 import React from 'react';
 import {shape} from 'prop-types';
+import {graphql} from 'gatsby';
 import {CurrentMeeting} from '@dsmjs/components';
+import Layout from '../components/layout';
 
 export default function SiteIndex({data}) {
   const {frontmatter} = data.allMarkdownRemark.edges[0].node;
 
   return (
-    <CurrentMeeting
-      sponsor={frontmatter.sponsor.frontmatter}
-      meeting={frontmatter}
-      host={frontmatter.host.frontmatter}
-      talk={frontmatter.talk.frontmatter}
-      content={frontmatter.talk.html}
-    />
+    <Layout>
+      <CurrentMeeting
+        sponsor={frontmatter.sponsor.frontmatter}
+        meeting={frontmatter}
+        host={frontmatter.host.frontmatter}
+        talk={frontmatter.talk.frontmatter}
+        content={frontmatter.talk.html}
+      />
+    </Layout>
   );
 }
 
