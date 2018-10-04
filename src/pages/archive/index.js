@@ -32,7 +32,7 @@ Archive.propTypes = {
 export const meetingsQuery = graphql`
   query MeetingsQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: {regex : "\\/meetings/"} },
+      filter:{fields:{type:{eq:"meeting"}}},
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
