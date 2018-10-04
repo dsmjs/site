@@ -55,6 +55,7 @@
     "gatsby-remark-prismjs": "^3.0.1",
     "gatsby-source-filesystem": "^2.0.0",
     "gatsby-transformer-remark": "^2.0.0",
+    "gatsby-transformer-yaml": "2.1.1",
     "glamor": "2.20.40",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",

@@ -7,13 +7,21 @@ import Layout from '../components/layout';
 export default function SiteIndex({data}) {
   const {frontmatter} = data.allMarkdownRemark.edges[0].node;
 
+  // TODO: this is janky, the @dsmjs/components CurrentMeeting component needs updated
+  const talk = {
+    ...frontmatter.talk.frontmatter,
+    speaker: {
+      frontmatter: frontmatter.talk.frontmatter.speaker
+    }
+  };
+
   return (
     <Layout>
       <CurrentMeeting
         sponsor={frontmatter.sponsor.frontmatter}
         meeting={frontmatter}
         host={frontmatter.host.frontmatter}
-        talk={frontmatter.talk.frontmatter}
+        talk={talk}
         content={frontmatter.talk.html}
       />
     </Layout>
@@ -27,7 +35,7 @@ SiteIndex.propTypes = {
 export const query = graphql`
   query CurrentMeetingQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: {regex : "\\/meetings/"} },
+      filter:{fields:{type:{eq:"meeting"}}},
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -56,9 +64,7 @@ export const query = graphql`
               frontmatter {
                 title
                 speaker {
-                  frontmatter {
-                    name
-                  }
+                  name
                 }
               }
             }

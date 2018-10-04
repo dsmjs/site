@@ -8,9 +8,6 @@ module.exports = ({graphql, actions}) => {
         allMarkdownRemark {
           edges {
             node {
-              frontmatter {
-                date
-              }
               fields {
                 slug
               }

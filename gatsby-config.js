@@ -4,11 +4,12 @@ module.exports = {
   },
   mapping: {
     'MarkdownRemark.frontmatter.talk': 'MarkdownRemark.frontmatter.title',
-    'MarkdownRemark.frontmatter.speaker': 'MarkdownRemark.frontmatter.name',
+    'MarkdownRemark.frontmatter.speaker': 'SpeakersYaml.name',
     'MarkdownRemark.frontmatter.sponsor': 'MarkdownRemark.frontmatter.name',
     'MarkdownRemark.frontmatter.host': 'MarkdownRemark.frontmatter.location'
   },
   plugins: [
+    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -31,36 +32,36 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'meetings',
+        name: 'meeting',
         path: `${__dirname}/content/meetings`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'talks',
+        name: 'talk',
         path: `${__dirname}/content/talks`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'speakers',
-        path: `${__dirname}/content/speakers`
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'sponsors',
+        name: 'sponsor',
         path: `${__dirname}/content/sponsors`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'hosts',
+        name: 'host',
         path: `${__dirname}/content/hosts`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content`
       }
     }
   ]
