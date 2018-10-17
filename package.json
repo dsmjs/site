@@ -6,6 +6,9 @@
   "maintainers": [
     "Matt Travi <npm@travi.org> (https://matt.travi.org/)"
   ],
+  "contributors": [
+    "Dustin Schau <dustinschau@gmail.com> (https://dustinschau.com)"
+  ],
   "private": true,
   "repository": "dsmjs/site",
   "bugs": "https://github.com/dsmjs/site/issues",
@@ -16,6 +19,7 @@
     "test": "run-s lint:* build",
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "serve": "gatsby serve",
     "start": "run-s develop",
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
@@ -30,8 +34,10 @@
   "devDependencies": {
     "@travi/eslint-config-travi": "1.6.18",
     "commitlint-config-dsmjs": "1.0.3",
+    "core-js": "2.5.7",
     "cz-conventional-changelog": "2.1.0",
     "globstar": "1.0.0",
+    "greenkeeper-lockfile": "1.15.1",
     "husky": "1.1.2",
     "markdownlint-cli": "0.13.0",
     "netlify-cli": "2.1.1",
@@ -39,18 +45,19 @@
   },
   "dependencies": {
     "@dsmjs/components": "2.2.0",
-    "gatsby": "1.9.272",
-    "gatsby-link": "1.6.46",
+    "gatsby": "2.0.25",
+    "gatsby-link": "2.0.4",
     "gatsby-plugin-glamor": "2.0.5",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "3.0.0",
-    "gatsby-remark-autolink-headers": "1.4.19",
+    "gatsby-remark-autolink-headers": "2.0.7",
     "gatsby-remark-prismjs": "3.0.2",
-    "gatsby-source-filesystem": "1.5.39",
-    "gatsby-transformer-remark": "1.7.44",
+    "gatsby-source-filesystem": "2.0.4",
+    "gatsby-transformer-remark": "2.1.7",
+    "glamor": "2.20.40",
     "prismjs": "1.15.0",
     "prop-types": "15.6.2",
-    "react": "16.5.2",
+    "react": "^16.5.2",
     "react-dom": "16.5.2",
     "react-helmet": "5.2.0"
   }

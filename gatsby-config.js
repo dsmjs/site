@@ -31,36 +31,36 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'meetings',
-        path: `${__dirname}/src/meetings`
+        name: 'meeting',
+        path: `${__dirname}/content/meetings`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'talks',
-        path: `${__dirname}/src/talks`
+        name: 'talk',
+        path: `${__dirname}/content/talks`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'speakers',
-        path: `${__dirname}/src/speakers`
+        name: 'sponsor',
+        path: `${__dirname}/content/sponsors`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'sponsors',
-        path: `${__dirname}/src/sponsors`
+        name: 'host',
+        path: `${__dirname}/content/hosts`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'hosts',
-        path: `${__dirname}/src/hosts`
+        name: 'speaker',
+        path: `${__dirname}/content/speakers`
       }
     }
   ]
