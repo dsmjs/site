@@ -24,7 +24,7 @@
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "deploy": "run-p --print-label deploy:*",
-    "deploy:netlify": "netlify deploy --site-id $NETLIFY_SITE_ID --access-token $NETLIFY_ACCESS_TOKEN --path ./public"
+    "deploy:netlify": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./public --prod"
   },
   "config": {
     "commitizen": {
