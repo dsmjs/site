@@ -1,4 +1,4 @@
 ---
 name: Eric Ponto
-twitter: ericponto
+twitter: ericponto 
 ---

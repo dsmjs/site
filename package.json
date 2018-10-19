@@ -14,7 +14,6 @@
   "bugs": "https://github.com/dsmjs/site/issues",
   "homepage": "http://dsmjs.netlify.com/",
   "scripts": {
-    "lint:md": "globstar --node -- markdownlint **/*.md",
     "lint:js": "eslint . --cache",
     "test": "run-s lint:* build",
     "build": "gatsby build",
