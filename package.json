@@ -51,7 +51,7 @@
     "gatsby-plugin-react-helmet": "3.0.3",
     "gatsby-remark-autolink-headers": "2.0.12",
     "gatsby-remark-prismjs": "3.1.1",
-    "gatsby-source-filesystem": "2.0.9",
+    "gatsby-source-filesystem": "2.0.10",
     "gatsby-transformer-remark": "2.1.13",
     "glamor": "2.20.40",
     "prismjs": "1.15.0",
