@@ -33,7 +33,7 @@
   "devDependencies": {
     "@travi/eslint-config-travi": "1.7.0",
     "commitlint-config-dsmjs": "1.0.3",
-    "core-js": "2.6.0",
+    "core-js": "2.6.1",
     "cz-conventional-changelog": "2.1.0",
     "globstar": "1.0.0",
     "greenkeeper-lockfile": "1.15.1",
