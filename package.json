@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@travi/eslint-config-travi": "1.7.0",
-    "commitlint-config-dsmjs": "1.0.5",
+    "commitlint-config-dsmjs": "1.0.6",
     "core-js": "2.6.4",
     "cz-conventional-changelog": "2.1.0",
     "globstar": "1.0.0",
