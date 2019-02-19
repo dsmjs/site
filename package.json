@@ -46,7 +46,7 @@
     "@dsmjs/components": "2.2.4",
     "gatsby": "2.0.59",
     "gatsby-link": "2.0.11",
-    "gatsby-plugin-glamor": "2.0.7",
+    "gatsby-plugin-glamor": "2.0.8",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "3.0.3",
     "gatsby-remark-autolink-headers": "2.0.12",
