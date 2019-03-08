@@ -12,7 +12,7 @@
   "private": true,
   "repository": "dsmjs/site",
   "bugs": "https://github.com/dsmjs/site/issues",
-  "homepage": "http://dsmjs.netlify.com/",
+  "homepage": "https://dsmjs.netlify.com/",
   "scripts": {
     "lint:js": "eslint . --cache",
     "test": "run-s lint:* build",

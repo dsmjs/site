@@ -63,6 +63,15 @@ module.exports = {
         path: `${__dirname}/content/speakers`
       }
     },
-    'gatsby-plugin-netlify'
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': [
+            'Referrer-Policy: same-origin,strict-origin-when-cross-origin'
+          ]
+        }
+      }
+    }
   ]
 };
