@@ -62,6 +62,7 @@ module.exports = {
         name: 'speaker',
         path: `${__dirname}/content/speakers`
       }
-    }
+    },
+    'gatsby-plugin-netlify'
   ]
 };
