@@ -31,7 +31,7 @@
     }
   },
   "devDependencies": {
-    "@travi/eslint-config-travi": "1.8.0",
+    "@travi/eslint-config-travi": "1.8.1",
     "commitlint-config-dsmjs": "1.0.10",
     "core-js": "2.6.5",
     "cz-conventional-changelog": "2.1.0",
