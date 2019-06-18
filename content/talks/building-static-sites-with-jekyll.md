@@ -5,10 +5,8 @@ tags: Jekyll
 speaker: Justin Musgrove
 ---
 
-
-Learn how to build a site using the static site generator Jekyll. This talk will walk through the basics of Jekyll as well as hosting the site using Github Pages.
+Learn how to build a site using the static site generator Jekyll. This talk
+will walk through the basics of Jekyll as well as hosting the site using
+Github Pages.
 
 (Bonus! This site, dsmjs.com, is built with Jekyll and hosted on Github pages.)
-
-
-

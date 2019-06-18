@@ -6,10 +6,8 @@ speaker: Eric Ponto
 code: 'https://github.com/dsmjs/intro-to-absurd'
 ---
 
+Absurd.js started out as a JavaScript based CSS preprocessor. It has now grown
+into a framework with HTML preprocessing, dependency injection, and components.
 
-
-Absurd.js started out as a JavaScript based CSS preprocessor. It has now grown into a framework with HTML preprocessing, dependency injection, and components.
-
-In this talk we will go through the basic of building an application using Absurd.js.
-
-
+In this talk we will go through the basic of building an application using
+Absurd.js.

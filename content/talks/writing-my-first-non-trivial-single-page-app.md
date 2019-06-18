@@ -5,9 +5,10 @@ tags: SPA
 speaker: Toran Billups
 ---
 
-
-
-Anyone can hype their favorite javascript framework but what happens when you need to build something bigger than a todo app? I decided to find out for myself a few months back when I started writing my first ambitious javascript application.
+Anyone can hype their favorite javascript framework but what happens when you
+need to build something bigger than a todo app? I decided to find out for
+myself a few months back when I started writing my first ambitious javascript
+application.
 
 During this talk I'll cover
 
@@ -24,5 +25,3 @@ During this talk I'll cover
 * What build tool did I use and how did I deploy with it?
 * When did I find unit tests helpful? When integration tests?
 * Transactions -do we need them on the client?
-
-

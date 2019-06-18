@@ -5,8 +5,4 @@ tags: Templating
 speaker: Thomas Lindner
 ---
 
-
-
 Handlebars lets you build semantic client side templates quickly and easily.
-
-

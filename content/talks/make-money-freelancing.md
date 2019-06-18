@@ -5,6 +5,8 @@ tags: Freelancing
 speaker: Matthew Nuzum
 ---
 
-
-Over the last 15 years I've taken on several freelance projects. Some of these worked great and some were disasters. I'll share the tips for finding interesting challenges and ensuring that projects have a high chance of success. I'll cover how to charge, how much to charge, and ensuring that expectations are clear and met.
-
+Over the last 15 years I've taken on several freelance projects. Some of these
+worked great and some were disasters. I'll share the tips for finding
+interesting challenges and ensuring that projects have a high chance of
+success. I'll cover how to charge, how much to charge, and ensuring that
+expectations are clear and met.

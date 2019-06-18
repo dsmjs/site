@@ -16,4 +16,3 @@ uses React, there are lots of other tools that need to be pieced together
 in addition to React itself. I'll highlight some ways to focus initial
 learning on React and minimize the distraction from the tools that are not
 important at the beginning.
-

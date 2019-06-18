@@ -5,4 +5,5 @@ speaker: None
 ---
 
 # No meeting in December 2017.
+
 See you in January
