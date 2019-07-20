@@ -32,7 +32,7 @@
     }
   },
   "devDependencies": {
-    "@dsmjs/remark-preset-lint": "1.0.0",
+    "@dsmjs/remark-preset-lint": "1.0.1",
     "@travi/eslint-config-travi": "1.8.3",
     "commitlint-config-dsmjs": "1.0.13",
     "core-js": "2.6.5",
