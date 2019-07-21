@@ -36,7 +36,7 @@
     "@travi/eslint-config-travi": "1.8.3",
     "commitlint-config-dsmjs": "1.0.13",
     "core-js": "2.6.5",
-    "cz-conventional-changelog": "3.0.1",
+    "cz-conventional-changelog": "3.0.2",
     "greenkeeper-lockfile": "1.15.1",
     "husky": "3.0.1",
     "netlify-cli": "2.11.29",
