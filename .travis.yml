@@ -8,6 +8,7 @@ deploy:
 - skip_cleanup: true
   provider: script
   script: npm run deploy
+after_success: npm run snapshot
 env:
   global:
   - FORCE_COLOR=1
