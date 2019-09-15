@@ -21,6 +21,7 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "start": "run-s develop",
+    "snapshot": "npx percy snapshot public/",
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "deploy": "run-p --print-label deploy:*",
