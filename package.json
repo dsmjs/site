@@ -36,7 +36,7 @@
     "@dsmjs/remark-preset-lint": "1.0.1",
     "@travi/eslint-config-travi": "1.8.6",
     "commitlint-config-dsmjs": "1.0.14",
-    "core-js": "3.3.1",
+    "core-js": "3.3.2",
     "cz-conventional-changelog": "3.0.2",
     "greenkeeper-lockfile": "1.15.1",
     "husky": "3.0.9",
