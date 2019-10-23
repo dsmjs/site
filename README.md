@@ -14,6 +14,7 @@ Primary website for the dsmJS user-group, built with [Gatsby](https://www.gatsby
 ### Setup
 
 ```sh
+$ nvm install
 $ npm install
 ```
 
