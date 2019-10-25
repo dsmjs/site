@@ -62,6 +62,8 @@ export const query = graphql`
             speaker {
               frontmatter {
                 name
+                github
+                twitter
               }
             }
           }
