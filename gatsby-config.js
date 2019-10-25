@@ -21,6 +21,14 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-glamor',
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'GOOGLE_ANALYTICS_TRACKING_ID',
+        head: true,
+        cookieDomain: 'dsmjs.com'
+      }
+    },
+    {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
