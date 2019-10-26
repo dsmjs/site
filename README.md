@@ -4,14 +4,14 @@ Primary website for the dsmJS user-group, built with [Gatsby](https://www.gatsby
 
 [![Build Status](https://img.shields.io/travis/dsmjs/site.svg?style=flat&branch=master)](https://travis-ci.org/dsmjs/site)
 
+## Contribution
+
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dsmjs/site.svg)](https://greenkeeper.io/)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/dsmjs/site)
 [![PRs Welcome][PRs-badge]][PRs-link]
 
-## Local Development
-
-### Setup
+### Dependencies
 
 ```sh
 $ nvm install
