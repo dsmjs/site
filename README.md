@@ -11,6 +11,8 @@ Primary website for the dsmJS user-group, built with [Gatsby](https://www.gatsby
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/dsmjs/site)
 [![PRs Welcome][PRs-badge]][PRs-link]
 
+Find common contributing details in our [organization-level contribution guide](https://github.com/dsmjs/.github/CONTRIBUTING.md)
+
 ### Dependencies
 
 ```sh
