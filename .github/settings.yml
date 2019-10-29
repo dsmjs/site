@@ -2,5 +2,5 @@ _extends: .github
 repository:
   name: site
   description: Gatsby site that is a WIP to replace the previous Jekyll site
-  homepage: https://dsmjs.netlify.com/
+  homepage: https://site.dsmjs.com/
   private: false
