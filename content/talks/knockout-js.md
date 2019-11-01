@@ -1,6 +1,6 @@
 ---
 title: KnockoutJS
-date: 'May 13, 2014'
+_date: 'May 13, 2014'
 tags: Knockout
 speaker: Jon von Willern
 ---

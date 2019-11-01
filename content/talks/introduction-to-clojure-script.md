@@ -1,6 +1,6 @@
 ---
 title: Introduction to ClojureScript
-date: 'October 8, 2013'
+_date: 'October 8, 2013'
 tags: null
 speaker: David W. Body
 ---

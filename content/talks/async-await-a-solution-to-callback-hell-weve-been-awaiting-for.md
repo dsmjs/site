@@ -1,6 +1,6 @@
 ---
 title: Async/Await - A solution to callback hell we've been awaiting for.
-date: 'September 12, 2017'
+_date: 'September 12, 2017'
 tags: Async/Await
 speaker: Paul Searcy
 ---
@@ -14,7 +14,7 @@ to count.
 
 Join me and have fun! While I  talk about how I've used these two keywords in
 some back-end tooling I use daily at work. And how scrapping webpages
-recursively, for testing security of course, became so much easier. 
+recursively, for testing security of course, became so much easier.
 
 Paul Searcy is a Software Developer at Stelter. Where he enjoys writing in C#,
 JS, and Bash while trying desperately to integrate legacy systems into Docker

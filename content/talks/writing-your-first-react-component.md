@@ -1,6 +1,6 @@
 ---
 title: Writing your first react component
-date: 'July 8, 2014'
+_date: 'July 8, 2014'
 tags: React
 speaker: Toran Billups
 ---

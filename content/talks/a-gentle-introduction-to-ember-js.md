@@ -1,6 +1,6 @@
 ---
 title: a gentle introduction to ember.js
-date: 'August 20, 2013'
+_date: 'August 20, 2013'
 tags: Ember
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/2013-08-20-ember-example'

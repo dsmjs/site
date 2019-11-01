@@ -1,6 +1,6 @@
 ---
 title: Intro to Absurd.js
-date: 'September 9, 2014'
+_date: 'September 9, 2014'
 tags: Absurd
 speaker: Eric Ponto
 code: 'https://github.com/dsmjs/intro-to-absurd'

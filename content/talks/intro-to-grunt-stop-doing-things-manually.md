@@ -1,6 +1,6 @@
 ---
 title: Intro to Grunt -  Stop doing things manually
-date: 'September 10, 2013'
+_date: 'September 10, 2013'
 tags: Grunt
 speaker: Chuck Rolek
 code: 'https://github.com/dsmjs/grunt_intro_example'

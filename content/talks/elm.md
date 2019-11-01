@@ -1,6 +1,6 @@
 ---
 title: Elm
-date: 'April 11, 2017'
+_date: 'April 11, 2017'
 tags: Elm
 speaker: Carl Olson
 ---

@@ -1,6 +1,6 @@
 ---
 title: Chrome App and Extension crash course
-date: 'June 14, 2016'
+_date: 'June 14, 2016'
 tags: Chrome
 speaker: Chuck Rolek
 ---

@@ -1,6 +1,6 @@
 ---
 title: Building Static Sites with Jekyll
-date: 'January 13, 2015'
+_date: 'January 13, 2015'
 tags: Jekyll
 speaker: Justin Musgrove
 ---

@@ -1,6 +1,6 @@
 ---
 title: Learn React in Isolation
-date: 'October 10, 2017'
+_date: 'October 10, 2017'
 tags:
   - react
   - storybook

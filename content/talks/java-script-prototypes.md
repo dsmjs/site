@@ -1,6 +1,6 @@
 ---
 title: JavaScript Prototypes
-date: 'June 10, 2014'
+_date: 'June 10, 2014'
 tags: Prototype
 speaker: Matthew J. Morrison
 ---

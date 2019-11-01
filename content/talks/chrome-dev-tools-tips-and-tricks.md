@@ -1,6 +1,6 @@
 ---
 title: Chrome dev tools tips and tricks
-date: 'June 13, 2013'
+_date: 'June 13, 2013'
 tags: Chrome
 speaker: Torey Maerz
 ---

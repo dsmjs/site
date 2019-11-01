@@ -1,6 +1,6 @@
 ---
 title: Future proof your javascript with Babel
-date: 'April 14, 2015'
+_date: 'April 14, 2015'
 tags:
   - Babel
   - ES6

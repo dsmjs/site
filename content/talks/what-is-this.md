@@ -1,6 +1,6 @@
 ---
 title: What is "this"
-date: 'July 11, 2013'
+_date: 'July 11, 2013'
 tags: null
 speaker: Matthew J. Morrizon
 code: 'https://github.com/dsmjs/dsmjs-6-10-2014-prototype'

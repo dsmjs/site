@@ -1,6 +1,6 @@
 ---
 title: github and the open source ecosphere
-date: 'September 10, 2013'
+_date: 'September 10, 2013'
 tags: Git
 speaker: Chad Thompson
 ---

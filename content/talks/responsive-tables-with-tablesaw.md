@@ -1,6 +1,6 @@
 ---
 title: Responsive Tables with Tablesaw
-date: 'March 10, 2015'
+_date: 'March 10, 2015'
 tags:
   - Responsive Web Design
   - Tablesaw

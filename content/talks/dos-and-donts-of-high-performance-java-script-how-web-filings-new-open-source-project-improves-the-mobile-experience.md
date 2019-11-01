@@ -2,7 +2,7 @@
 title: >-
   Do's and Don'ts of High Performance JavaScript -  How WebFilings New Open
   Source Project Improves the Mobile Experience
-date: 'January 16, 2014'
+_date: 'January 16, 2014'
 tags: Performance
 speaker: Tim McCall
 ---

@@ -1,6 +1,6 @@
 ---
 title: Building your own Command Line Interface with Node and npm
-date: 'March 8, 2016'
+_date: 'March 8, 2016'
 tags:
   - CLI
   - Node

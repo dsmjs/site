@@ -1,6 +1,6 @@
 ---
 title: Intermediate debugging
-date: 'January 9, 2018'
+_date: 'January 9, 2018'
 tags:
   - debugging
 speaker: Toran Billups

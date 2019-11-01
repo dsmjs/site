@@ -1,6 +1,6 @@
 ---
 title: React - Why did you render?
-date: 'November 14, 2017'
+_date: 'November 14, 2017'
 tags:
   - react
 speaker: Trevor Richardson

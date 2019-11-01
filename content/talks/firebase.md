@@ -1,6 +1,6 @@
 ---
 title: Firebase
-date: 'May 13, 2014'
+_date: 'May 13, 2014'
 tags: Firebase
 speaker: Brad Dwyer
 ---

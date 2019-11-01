@@ -1,6 +1,6 @@
 ---
 title: Writing JavaScript like a grown-up
-date: 'May 14, 2013'
+_date: 'May 14, 2013'
 tags: null
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/2013-05-intro-topic'

@@ -1,6 +1,6 @@
 ---
 title: Marble Testing with RxJS
-date: 'April 11, 2017'
+_date: 'April 11, 2017'
 tags:
   - RxJS
   - TDD

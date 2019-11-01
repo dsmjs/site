@@ -1,6 +1,6 @@
 ---
 title: Angular 2 -  First Look
-date: 'March 14, 2017'
+_date: 'March 14, 2017'
 tags: Angular
 speaker: Lee Brandt
 ---

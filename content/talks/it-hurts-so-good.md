@@ -1,6 +1,6 @@
 ---
 title: It hurts....so Good
-date: 'November 10, 2015'
+_date: 'November 10, 2015'
 tags: ES6
 speaker: Caleb Boyd & Dusty Greif
 ---
