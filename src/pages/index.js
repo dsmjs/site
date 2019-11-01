@@ -36,7 +36,6 @@ export const query = graphql`
           html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            # date
             time {
               start
               end
