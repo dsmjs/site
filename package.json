@@ -7,7 +7,8 @@
     "Matt Travi <npm@travi.org> (https://matt.travi.org/)"
   ],
   "contributors": [
-    "Dustin Schau <dustinschau@gmail.com> (https://dustinschau.com)"
+    "Dustin Schau <dustinschau@gmail.com> (https://dustinschau.com)",
+    "Michael Leners <micleners@gmail.com> (https://micleners.com/)"
   ],
   "private": true,
   "repository": "dsmjs/site",
