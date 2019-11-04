@@ -1,6 +1,6 @@
 ---
 title: No meeting in April
-date: 'April 10, 2018'
+_date: 'April 10, 2018'
 speaker: None
 ---
 

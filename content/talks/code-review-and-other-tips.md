@@ -1,6 +1,6 @@
 ---
 title: Code Review and other tips
-date: 'Feb 13, 2018'
+_date: 'Feb 13, 2018'
 speaker: Aaron Eischeid
 ---
 

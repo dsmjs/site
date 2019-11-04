@@ -1,6 +1,6 @@
 ---
 title: Exploring Evolutionary Computing in JavaScript
-date: 'September 11, 2018'
+_date: 'September 11, 2018'
 speaker: Michael Bosworth
 code: 'https://github.com/bozzltron/ec-toolkit'
 slides: 'https://slides.com/bozzltron/evolutionary-computing'

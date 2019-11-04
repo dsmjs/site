@@ -1,6 +1,6 @@
 ---
 title: Writing my first non-trivial single page app
-date: 'November 12, 2013'
+_date: 'November 12, 2013'
 tags: SPA
 speaker: Toran Billups
 ---

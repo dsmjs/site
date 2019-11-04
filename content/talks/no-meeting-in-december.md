@@ -1,6 +1,6 @@
 ---
 title: No meeting in December?
-date: 'December 1, 2017'
+_date: 'December 1, 2017'
 speaker: None
 ---
 

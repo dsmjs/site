@@ -1,6 +1,6 @@
 ---
 title: Using ES6 modules today
-date: 'May 13, 2014'
+_date: 'May 13, 2014'
 tags: ES6
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/es6-demo'

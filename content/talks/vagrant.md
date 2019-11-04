@@ -1,6 +1,6 @@
 ---
 title: Vagrant
-date: 'April 14, 2015'
+_date: 'April 14, 2015'
 tags: Vagrant
 speaker: Shawn Sparks
 ---

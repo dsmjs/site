@@ -1,6 +1,6 @@
 ---
 title: Handlebars.js - Minimal Templating on Steroids
-date: 'March 10, 2015'
+_date: 'March 10, 2015'
 tags: Templating
 speaker: Thomas Lindner
 ---

@@ -1,6 +1,6 @@
 ---
 title: Browserify basics
-date: 'July 8, 2014'
+_date: 'July 8, 2014'
 tags: Browserify
 speaker: Toran Billups
 ---

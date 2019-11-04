@@ -1,6 +1,6 @@
 ---
 title: Installing and Setting Up Node.js and npm -  A Beginner Friendly Guide
-date: 'February 9, 2016'
+_date: 'February 9, 2016'
 tags:
   - Node
   - npm

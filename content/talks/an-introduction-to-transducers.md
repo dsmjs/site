@@ -1,6 +1,6 @@
 ---
 title: An Introduction to Transducers
-date: 'March 13, 2018'
+_date: 'March 13, 2018'
 tags: Functional Programming
 speaker: Eric Ponto
 slides: 'http://slides.ericponto.com/dsmjs-intro-to-transducers/'

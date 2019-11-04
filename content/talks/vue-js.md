@@ -1,6 +1,6 @@
 ---
 title: VueJS
-date: 'January 10, 2017'
+_date: 'January 10, 2017'
 tags: Vue
 speaker: Paul Rowe
 ---

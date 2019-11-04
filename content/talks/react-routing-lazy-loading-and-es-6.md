@@ -1,6 +1,6 @@
 ---
 title: React / Routing / Lazy Loading and ES6
-date: 'August 12, 2014'
+_date: 'August 12, 2014'
 tags:
   - React
   - ES6

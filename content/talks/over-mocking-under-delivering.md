@@ -1,6 +1,6 @@
 ---
 title: 'Over mocking, under delivering'
-date: 'August 14, 2018'
+_date: 'August 14, 2018'
 tags:
   - testing
 speaker: Toran Billups

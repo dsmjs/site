@@ -1,6 +1,6 @@
 ---
 title: Creating a realtime auction
-date: 'September 9, 2014'
+_date: 'September 9, 2014'
 tags: Firebase
 speaker: Brad Dwyer
 ---

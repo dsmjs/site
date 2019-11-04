@@ -1,6 +1,6 @@
 ---
 title: Gatsby - Static Site Generation with React
-date: 'October 9, 2018'
+_date: 'October 9, 2018'
 speaker: Dustin Schau
 slides: 'https://gatsby.dustinschau.com'
 ---

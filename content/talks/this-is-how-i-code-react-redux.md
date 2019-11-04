@@ -1,6 +1,6 @@
 ---
 title: This Is How I Code! (React/Redux)
-date: 'July 10, 2018'
+_date: 'July 10, 2018'
 speaker: Tae Kim
 tags:
   - React

@@ -1,6 +1,6 @@
 ---
 title: Unit testing methods/modules in isolation with QUnit
-date: February 11th 2014
+_date: 'February 11th, 2014'
 tags:
   - TDD
   - QUnit

@@ -1,6 +1,6 @@
 ---
 title: From Rx to Redux and Back
-date: 'November 15, 2016'
+_date: 'November 15, 2016'
 tags:
   - RxJS
   - Redux

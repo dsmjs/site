@@ -1,6 +1,6 @@
 ---
 title: Functional Reactive Programming in JavaScript with RxJS
-date: 'May 12, 2015'
+_date: 'May 12, 2015'
 tags:
   - RxJS
   - Functional Proramming

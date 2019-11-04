@@ -1,6 +1,6 @@
 ---
 title: Robotics with JavaScript
-date: 'August 9, 2016'
+_date: 'August 9, 2016'
 tags: Robotics
 speaker: Michael Parker
 ---

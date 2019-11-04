@@ -1,6 +1,6 @@
 ---
 title: Refactor Like a Scientist
-date: 'September 13, 2016'
+_date: 'September 13, 2016'
 tags: Scientist
 speaker: Fred Galoso
 ---

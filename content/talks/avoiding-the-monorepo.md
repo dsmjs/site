@@ -1,6 +1,6 @@
 ---
 title: Avoiding the Monorepo
-date: 'May 08, 2018'
+_date: 'May 08, 2018'
 tags:
   - continuous-deployment
   - project-scaffolding

@@ -1,6 +1,6 @@
 ---
 title: Functional Programming in Ember? The Ember-Redux Origin Story
-date: 'May 11, 2016'
+_date: 'May 11, 2016'
 tags:
   - Ember
   - Redux

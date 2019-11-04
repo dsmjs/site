@@ -41,8 +41,7 @@ export const meetingsQuery = graphql`
             slug
           }
           frontmatter {
-            # date(formatString: "MMMM DD, YYYY")
-            date
+            date(formatString: "MMMM DD, YYYY")
             talk {
               frontmatter {
                 title

@@ -37,8 +37,7 @@ export const query = graphql`
   query MeetingQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
-        # date(formatString: "MMMM DD, YYYY")
-        date
+        date(formatString: "MMMM DD, YYYY")
         time {
           start
           end

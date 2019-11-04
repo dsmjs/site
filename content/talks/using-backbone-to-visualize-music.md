@@ -1,6 +1,6 @@
 ---
 title: Using Backbone to Visualize Music
-date: 'June 13, 2013'
+_date: 'June 13, 2013'
 tags: Backbone
 speaker: Jack Viers
 ---

@@ -1,6 +1,6 @@
 ---
 title: Collaborating through a _shared_ component library
-date: 'July 12, 2016'
+_date: 'July 12, 2016'
 tags: Component Library
 speaker: Matt Travi
 slides: 'https://presentations.travi.org/component-library-dsmjs-july-2016/'

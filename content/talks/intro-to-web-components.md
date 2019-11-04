@@ -1,6 +1,6 @@
 ---
 title: Intro to Web Components
-date: 'April 8, 2014'
+_date: 'April 8, 2014'
 tags: null
 speaker: Eric Ponto
 ---

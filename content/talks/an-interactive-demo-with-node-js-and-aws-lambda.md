@@ -1,6 +1,6 @@
 ---
 title: An interactive demo with NodeJS and AWS Lambda
-date: 'July 18, 2017'
+_date: 'July 18, 2017'
 tags:
   - nodejs
   - aws-lamda

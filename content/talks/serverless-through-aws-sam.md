@@ -1,6 +1,6 @@
 ---
 title: Serverless through AWS SAM
-date: 'June 19, 2018'
+_date: 'June 19, 2018'
 tags:
   - serverless
   - aws-sam
