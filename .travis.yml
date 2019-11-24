@@ -3,11 +3,7 @@ language: node_js
 notifications:
   email: false
 import:
-  - source: dsmjs/.travis-ci:netlify-cli-token-env.yml
-deploy:
-- skip_cleanup: true
-  provider: script
-  script: npm run deploy
+  - source: dsmjs/.travis-ci:authenticated-netlify-deploy.yml
 after_success: npm run snapshot
 env:
   global:
