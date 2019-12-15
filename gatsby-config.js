@@ -10,6 +10,20 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'dsmJS',
+        short_name: 'dsmJS',
+        description: 'Des Moines JavaScript User Group',
+        lang: 'en',
+        start_url: '/',
+        background_color: '#EFDA4F',
+        theme_color: '#039998',
+        display: 'standalone',
+        icon: './static/dsmJS.svg'
+      }
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
