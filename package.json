@@ -17,6 +17,7 @@
   "scripts": {
     "lint:js": "eslint . --cache",
     "lint:md": "remark --frail --quiet .",
+    "lint:peer": "npm ls >/dev/null",
     "test": "run-s lint:* build",
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -34,8 +35,9 @@
     }
   },
   "devDependencies": {
+    "@dsmjs/eslint-config": "1.0.31",
+    "@dsmjs/eslint-config-react": "1.1.26",
     "@dsmjs/remark-preset-lint": "1.0.2",
-    "@travi/eslint-config-travi": "1.8.7",
     "commitlint-config-dsmjs": "1.0.16",
     "cz-conventional-changelog": "3.1.0",
     "greenkeeper-lockfile": "1.15.1",
@@ -48,7 +50,7 @@
   },
   "dependencies": {
     "@dsmjs/components": "3.5.1",
-    "gatsby": "2.15.15",
+    "gatsby": "2.19.12",
     "gatsby-link": "2.2.13",
     "gatsby-plugin-glamor": "2.1.7",
     "gatsby-plugin-google-fonts": "1.0.1",

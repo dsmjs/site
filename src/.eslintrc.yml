@@ -1,7 +1,2 @@
-extends: '@travi/travi/rules/react'
-
 globals:
   graphql: true
-
-rules:
-  react/jsx-no-bind: off # render props... ?
