@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import {Helmet} from 'react-helmet';
 import {graphql, StaticQuery} from 'gatsby';
 import {Layout} from '@dsmjs/components';
 import {node} from 'prop-types';
@@ -37,7 +37,7 @@ export default function SiteLayout({children}) {
                     state
                     zip
                   }
-                }          
+                }
               }
             }
           }
