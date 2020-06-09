@@ -1,7 +1,8 @@
 ---
 title: The future! A story about the vNext developer toolchain
 _date: 'October 11, 2016'
-tags: Redux
+tags:
+ - Redux
 speaker: Toran Billups
 video: 'https://vimeo.com/187938033'
 ---

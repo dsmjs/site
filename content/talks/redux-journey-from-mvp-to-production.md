@@ -1,7 +1,8 @@
 ---
 title: Redux - Journey from MVP to production
 _date: 'May 9, 2017'
-tags: Redux
+tags:
+ - Redux
 speaker: Michael Clark
 ---
 

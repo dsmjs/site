@@ -1,7 +1,8 @@
 ---
 title: Working with files in the browser
 _date: 'October 8, 2013'
-tags: File API
+tags:
+ - File API
 speaker: Eric Ponto
 ---
 

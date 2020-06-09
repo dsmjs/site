@@ -1,7 +1,8 @@
 ---
 title: Writing tests for javascript with QUnit/Sinon and Karma
 _date: 'July 11, 2013'
-tags: TDD
+tags:
+ - TDD
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/2013-07-advanced-topic'
 ---

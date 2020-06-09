@@ -1,7 +1,8 @@
 ---
 title: Building your web apps with gulp
 _date: 'July 8, 2014'
-tags: Gulp
+tags:
+ - Gulp
 speaker: Toran Billups
 ---
 

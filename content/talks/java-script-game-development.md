@@ -1,7 +1,8 @@
 ---
 title: JavaScript Game Development
 _date: 'May 14, 2013'
-tags: Impact
+tags:
+ - Impact
 speaker: Joel Taddei
 code: 'https://github.com/dsmjs/2013-05-advanced-topic'
 ---

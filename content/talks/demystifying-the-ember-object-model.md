@@ -1,7 +1,8 @@
 ---
 title: Demystifying the ember object model
 _date: 'March 11, 2014'
-tags: Ember
+tags:
+ - Ember
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/2014-03-ember-object-intro'
 ---

@@ -1,7 +1,8 @@
 ---
 title: 'React.render(ClientOrServer, document.querySelector(‘.you-decide’));'
 _date: 'August 11, 2015'
-tags: React
+tags:
+ - React
 speaker: Jason Bradley
 ---
 

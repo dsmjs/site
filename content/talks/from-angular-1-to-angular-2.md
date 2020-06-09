@@ -1,7 +1,8 @@
 ---
 title: From Angular 1 to Angular 2
 _date: 'February 15, 2017'
-tags: Angular
+tags:
+ - Angular
 speaker: Jaime Niswonger
 ---
 

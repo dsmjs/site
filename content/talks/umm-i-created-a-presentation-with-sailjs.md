@@ -1,7 +1,8 @@
 ---
 title: 'Umm, I created a presentation with Sailjs?'
 _date: 'June 9, 2015'
-tags: Sails
+tags:
+ - Sails
 speaker: Chuck Rolek
 ---
 

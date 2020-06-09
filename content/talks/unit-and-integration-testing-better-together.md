@@ -1,7 +1,8 @@
 ---
 title: Unit and Integration testing -  better together
 _date: 'April 8, 2014'
-tags: TDD
+tags:
+ - TDD
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/2014-04-unit-and-integration-testing'
 ---

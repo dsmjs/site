@@ -1,7 +1,8 @@
 ---
 title: Intro to AngularJS
 _date: 'January 13, 2015'
-tags: Angular
+tags:
+ - Angular
 speaker: Jessa Sparks
 ---
 

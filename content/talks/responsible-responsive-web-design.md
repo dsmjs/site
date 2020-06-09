@@ -1,7 +1,8 @@
 ---
 title: Responsible Responsive Web Design
 _date: 'June 9, 2015'
-tags: Responsive Web Design
+tags:
+ - Responsive Web Design
 speaker: Matt Busche
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Redux - A Case Study in Performance Tuning
 _date: 'August 15, 2017'
-tags: Redux
+tags:
+ - Redux
 speaker: Toran Billups
 video: 'https://vimeo.com/229775616'
 code: 'https://github.com/toranb/redux-case-study-demo'

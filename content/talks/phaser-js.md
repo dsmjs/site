@@ -1,7 +1,8 @@
 ---
 title: Phaser.js
 _date: 'February 10, 2015'
-tags: Phaser
+tags:
+ - Phaser
 speaker: David Moritz
 ---
 

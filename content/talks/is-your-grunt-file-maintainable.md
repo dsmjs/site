@@ -1,7 +1,8 @@
 ---
 title: Is your Grunt file maintainable?
 _date: 'November 12, 2013'
-tags: Grunt
+tags:
+ - Grunt
 speaker: Brandon Williams
 ---
 

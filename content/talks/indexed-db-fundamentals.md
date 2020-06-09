@@ -1,7 +1,8 @@
 ---
 title: IndexedDB Fundamentals
 _date: 'February 11, 2014'
-tags: IndexDB
+tags:
+ - IndexDB
 speaker: Nicholas Starke
 ---
 

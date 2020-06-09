@@ -1,7 +1,8 @@
 ---
 title: Intro To ES6
 _date: 'November 12, 2014'
-tags: ES6
+tags:
+ - ES6
 speaker: Eric Ponto
 code: 'https://github.com/dsmjs/11-12-14-intro-to-es6'
 ---

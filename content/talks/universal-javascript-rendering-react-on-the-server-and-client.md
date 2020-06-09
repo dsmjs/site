@@ -1,7 +1,8 @@
 ---
 title: Universal Javascript - Rendering React on the server and client
 _date: 'September 8, 2015'
-tags: React
+tags:
+ - React
 speaker: Logan Keenan
 ---
 

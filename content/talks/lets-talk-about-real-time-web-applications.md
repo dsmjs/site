@@ -1,7 +1,8 @@
 ---
 title: Lets talk about real time web applications!
 _date: 'March 11, 2014'
-tags: Web Sockets
+tags:
+ - Web Sockets
 speaker: Joel Taddei
 code: 'https://github.com/dsmjs/2014-03-real-time-web'
 ---

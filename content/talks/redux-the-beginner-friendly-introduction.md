@@ -1,7 +1,8 @@
 ---
 title: Redux -  the beginner friendly introduction
 _date: 'January 12, 2016'
-tags: Redux
+tags:
+ - Redux
 speaker: Toran Billups
 ---
 

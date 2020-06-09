@@ -1,7 +1,8 @@
 ---
 title: Javascript Cryptography
 _date: 'November 12, 2014'
-tags: Cryotograpy
+tags:
+ - Cryotograpy
 speaker: Nick Starke
 ---
 

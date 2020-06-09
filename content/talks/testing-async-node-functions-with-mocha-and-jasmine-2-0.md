@@ -1,7 +1,8 @@
 ---
 title: Testing async node functions with mocha and jasmine 2.0
 _date: 'June 10, 2014'
-tags: TDD
+tags:
+ - TDD
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/2014-06-testing-async-with-mocha-and-jasmine'
 ---

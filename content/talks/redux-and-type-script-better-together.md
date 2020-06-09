@@ -1,7 +1,8 @@
 ---
 title: Redux And TypeScript - better together
 _date: 'July 18, 2017'
-tags: Redux
+tags:
+ - Redux
 speaker: Toran Billups
 code: 'https://github.com/toranb/typescript-and-redux-demo'
 video: 'https://vimeo.com/225780551'

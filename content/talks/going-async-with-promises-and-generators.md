@@ -1,7 +1,8 @@
 ---
 title: Going Async with Promises and Generators
 _date: 'February 10, 2015'
-tags: ES6
+tags:
+ - ES6
 speaker: Eric Ponto
 code: 'https://github.com/dsmjs/02-10-2015-promise-generators'
 ---

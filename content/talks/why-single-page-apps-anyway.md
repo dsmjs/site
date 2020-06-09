@@ -1,7 +1,8 @@
 ---
 title: why single page apps anyway?
 _date: 'August 20, 2013'
-tags: SPA
+tags:
+ - SPA
 speaker: Toran Billups
 code: 'https://github.com/dsmjs/2013-08-20-why-single-page-apps'
 ---

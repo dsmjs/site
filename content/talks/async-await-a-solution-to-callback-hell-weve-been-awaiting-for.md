@@ -1,7 +1,8 @@
 ---
 title: Async/Await - A solution to callback hell we've been awaiting for.
 _date: 'September 12, 2017'
-tags: Async/Await
+tags:
+ - Async/Await
 speaker: Paul Searcy
 ---
 

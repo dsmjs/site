@@ -1,7 +1,8 @@
 ---
 title: Outside-In Test Driven Development
 _date: 'October 13, 2015'
-tags: TDD
+tags:
+ - TDD
 speaker: Toran Billups
 ---
 

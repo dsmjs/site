@@ -1,7 +1,8 @@
 ---
 title: Aurelia - rediscover your choice in front-end frameworks
 _date: 'April 11, 2017'
-tags: Aurelia
+tags:
+ - Aurelia
 speaker: Jeff Shinrock
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Make money freelancing
 _date: 'April 12, 2016'
-tags: Freelancing
+tags:
+ - Freelancing
 speaker: Matthew Nuzum
 ---
 
