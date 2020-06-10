@@ -14,7 +14,6 @@ export default function SiteIndex({data}) {
         meeting={frontmatter}
         host={frontmatter.host.frontmatter}
         talks={frontmatter.talks}
-        content={frontmatter.talks[0].talk.html}
       />
     </Layout>
   );
