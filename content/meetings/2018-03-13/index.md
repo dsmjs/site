@@ -5,5 +5,6 @@ time:
   end: 7:00pm
 host: Gravitate
 sponsor: Robert Half
-talk: An Introduction to Transducers
+talks:
+  - talk: An Introduction to Transducers
 ---
