@@ -5,5 +5,6 @@ time:
   end: 7:00pm
 host: Source Allies
 sponsor: Source Allies
-talk: Serverless through AWS SAM
+talks:
+  - talk: Serverless through AWS SAM
 ---

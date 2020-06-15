@@ -3,7 +3,7 @@ module.exports = {
     title: 'dsmJS  - Des Moines JavaScript User Group'
   },
   mapping: {
-    'MarkdownRemark.frontmatter.talk': 'MarkdownRemark.frontmatter.title',
+    'MarkdownRemark.frontmatter.talks.talk': 'MarkdownRemark.frontmatter.title',
     'MarkdownRemark.frontmatter.speaker': 'MarkdownRemark.frontmatter.name',
     'MarkdownRemark.frontmatter.sponsor': 'MarkdownRemark.frontmatter.name',
     'MarkdownRemark.frontmatter.host': 'MarkdownRemark.frontmatter.location'

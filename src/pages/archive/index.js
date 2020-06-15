@@ -42,9 +42,11 @@ export const meetingsQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            talk {
-              frontmatter {
-                title
+            talks {
+              talk {
+                frontmatter {
+                  title
+                }
               }
             }
           }

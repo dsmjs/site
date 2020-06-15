@@ -13,8 +13,7 @@ export default function SiteIndex({data}) {
         sponsor={frontmatter.sponsor.frontmatter}
         meeting={frontmatter}
         host={frontmatter.host.frontmatter}
-        talk={frontmatter.talk.frontmatter}
-        content={frontmatter.talk.html}
+        talks={frontmatter.talks}
       />
     </Layout>
   );
@@ -52,15 +51,17 @@ export const query = graphql`
                 address
               }
             }
-            talk {
-              html
-              frontmatter {
-                title
-                speaker {
-                  frontmatter {
-                    name
-                    github
-                    twitter
+            talks {
+              talk {
+                html
+                frontmatter {
+                  title
+                  speaker {
+                    frontmatter {
+                      name
+                      github
+                      twitter
+                    }
                   }
                 }
               }
