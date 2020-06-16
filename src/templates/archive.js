@@ -2,7 +2,7 @@ import React from 'react';
 import {arrayOf, shape, string} from 'prop-types';
 import {graphql} from 'gatsby';
 import {Archive as ArchivePage} from '@dsmjs/components';
-import Layout from '../../components/layout';
+import Layout from '../components/layout';
 
 export default function Archive({data}) {
   const meetings = data.allMarkdownRemark.edges;
@@ -30,10 +30,12 @@ Archive.propTypes = {
 };
 
 export const meetingsQuery = graphql`
-  query MeetingsQuery {
+  query MeetingsQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       filter:{fields:{type:{eq:"meeting"}}},
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC },
+      limit: $limit,
+      skip: $skip
     ) {
       edges {
         node {
