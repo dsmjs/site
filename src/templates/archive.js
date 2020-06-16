@@ -1,15 +1,15 @@
 import React from 'react';
-import {arrayOf, shape, string} from 'prop-types';
+import {arrayOf, number, shape, string} from 'prop-types';
 import {graphql} from 'gatsby';
 import {Archive as ArchivePage} from '@dsmjs/components';
 import Layout from '../components/layout';
 
-export default function Archive({data}) {
+export default function Archive({data, pageContext: {totalPages, currentPage}}) {
   const meetings = data.allMarkdownRemark.edges;
 
   return (
     <Layout>
-      <ArchivePage meetings={meetings} />
+      <ArchivePage meetings={meetings} totalPages={totalPages} currentPage={currentPage} />
     </Layout>
   );
 }
@@ -26,7 +26,11 @@ Archive.propTypes = {
         })
       }))
     })
-  }
+  },
+  pageContext: shape({
+    totalPages: number.isRequired,
+    currentPage: number.isRequired
+  }).isRequired
 };
 
 export const meetingsQuery = graphql`

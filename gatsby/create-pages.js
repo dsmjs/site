@@ -2,8 +2,6 @@ const path = require('path');
 
 function createMeetingPages(meetings, createPage) {
   meetings.forEach(({node}) => {
-    if (!node.fields || !node.fields.slug) return;
-
     createPage({
       path: node.fields.slug,
       component: path.resolve('./src/templates/meeting.js'),
@@ -47,7 +45,7 @@ module.exports = async ({graphql, actions}) => {
     }
   `);
 
-  const meetings = result.data.allMarkdownRemark.edges;
+  const meetings = result.data.allMarkdownRemark.edges.filter(edge => edge.node.fields.slug);
 
   createMeetingPages(meetings, createPage);
   createArchiveListPage(meetings, createPage);
