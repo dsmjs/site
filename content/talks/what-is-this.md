@@ -2,7 +2,7 @@
 title: What is "this"
 _date: 'July 11, 2013'
 tags: null
-speaker: Matthew J. Morrizon
+speaker: Matthew J. Morrison
 code: 'https://github.com/dsmjs/dsmjs-6-10-2014-prototype'
 ---
 

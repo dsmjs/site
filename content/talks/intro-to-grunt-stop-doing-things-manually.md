@@ -1,5 +1,5 @@
 ---
-title: Intro to Grunt -  Stop doing things manually
+title: "Intro to Grunt - Stop doing things manually"
 _date: 'September 10, 2013'
 tags:
  - Grunt

@@ -10,7 +10,6 @@ export default function ArchivedMeeting({data}) {
   return (
     <Layout>
       <Meeting
-        sponsor={frontmatter.sponsor.frontmatter}
         meeting={frontmatter}
         host={frontmatter.host.frontmatter}
         talks={frontmatter.talks}
