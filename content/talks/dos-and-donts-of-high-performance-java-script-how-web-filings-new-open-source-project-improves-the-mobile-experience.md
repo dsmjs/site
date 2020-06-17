@@ -1,7 +1,6 @@
 ---
-title: >-
-  Do's and Don'ts of High Performance JavaScript -  How WebFilings New Open
-  Source Project Improves the Mobile Experience
+title: "Do's and Don'ts of High Performance JavaScript - How WebFilings New
+  Open Source Project Improves the Mobile Experience"
 _date: 'January 16, 2014'
 tags:
  - Performance

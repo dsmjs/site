@@ -1,5 +1,5 @@
 ---
-title: Unit and Integration testing -  better together
+title: Unit and Integration testing - better together
 _date: 'April 8, 2014'
 tags:
  - TDD

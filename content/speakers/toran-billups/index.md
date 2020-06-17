@@ -1,4 +1,5 @@
 ---
 name: Toran Billups
-twitter: toranb 
+twitter: toranb
+github: toranb
 ---
