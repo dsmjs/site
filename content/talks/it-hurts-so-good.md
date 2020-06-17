@@ -6,8 +6,6 @@ tags:
 speaker: Caleb Boyd & Dusty Greif
 ---
 
-)
-
 While the bleeding-edge can be painful, there is an incredible amount of power
 to be found in future versions of javascript.  We will be showing off some of
 the techniques and tools that TelePharm has been using to increase our
