@@ -1,5 +1,5 @@
 ---
-title: Redux -  the beginner friendly introduction
+title: Redux - the beginner friendly introduction
 _date: 'January 12, 2016'
 tags:
  - Redux
