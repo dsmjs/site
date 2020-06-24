@@ -53,7 +53,7 @@
     "gatsby-plugin-glamor": "2.3.5",
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-netlify": "2.3.6",
-    "gatsby-plugin-react-helmet": "3.3.5",
+    "gatsby-plugin-react-helmet": "3.3.6",
     "gatsby-remark-autolink-headers": "2.3.6",
     "gatsby-remark-prismjs": "3.5.5",
     "gatsby-source-filesystem": "2.3.13",
