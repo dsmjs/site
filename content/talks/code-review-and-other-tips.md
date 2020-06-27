@@ -1,6 +1,10 @@
 ---
 title: Code Review and other tips
 _date: 'Feb 13, 2018'
+tags:
+  - Git
+  - CI
+  - PairProgramming
 speaker: Aaron Eischeid
 ---
 

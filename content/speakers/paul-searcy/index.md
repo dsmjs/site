@@ -1,4 +1,5 @@
 ---
 name: Paul Searcy
-twitter: paulsearcy5 
+github: PaulSearcy
+twitter: paulsearcy5
 ---

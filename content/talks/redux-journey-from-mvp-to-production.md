@@ -3,7 +3,7 @@ title: Redux - Journey from MVP to production
 _date: 'May 9, 2017'
 tags:
  - Redux
-speaker: Michael Clark
+speaker: Michael W. Clark
 ---
 
 After inheriting a minimially viable product I was tasked with adding
