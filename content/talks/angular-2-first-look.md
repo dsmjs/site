@@ -1,5 +1,5 @@
 ---
-title: Angular 2 -  First Look
+title: Angular 2 - First Look
 _date: 'March 14, 2017'
 tags:
  - Angular
