@@ -2,6 +2,7 @@
 name: Gleb Bahmutov
 twitter: bahmutov
 github: bahmutov
+avatar: 'https://raw.githubusercontent.com/bahmutov/bahmutov.github.io/master/gleb-bahmutov.jpg'
 ---
 
 Gleb Bahmutov is JavaScript ninja, image processing expert and software quality

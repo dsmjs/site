@@ -2,10 +2,8 @@
 title: Building a Web App in JS without client-side JS
 _date: November 13, 2018
 speaker: Logan Keenan
-code: "https://github.com/logankeenan/talks/tree/master/dsmjs/javascript-apps-
-without-client-side-js-and-only-native-apis/app"
-slides: "https://logankeenan.github.io/talks/dsmjs/javascript-apps-without-
-client-side-js-and-only-native-apis/"
+code: 'https://github.com/logankeenan/talks/tree/master/dsmjs/javascript-apps-without-client-side-js-and-only-native-apis/app'
+slides: 'https://logankeenan.github.io/talks/dsmjs/javascript-apps-without-client-side-js-and-only-native-apis/'
 ---
 
 Today, building web apps tends to involve a myriad of frameworks and libraries

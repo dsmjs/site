@@ -10,8 +10,7 @@ tags:
   - react
 speaker: Todd Brunia
 code: 'https://github.com/xilution/xilution-react-todomvc'
-slides: "https://docs.google.com/presentation/d/1RpxSEoenX_YdrG-AOxpgvYMXHoke\
-  -Zsd91WF2MwVUkw/edit?usp=sharing"
+slides: 'https://docs.google.com/presentation/d/1RpxSEoenX_YdrG-AOxpgvYMXHoke\-Zsd91WF2MwVUkw/edit?usp=sharing'
 ---
 
 Serverless is a super hot topic these days. You won’t want to miss this talk by
