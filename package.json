@@ -55,7 +55,7 @@
     "gatsby-plugin-netlify": "2.3.13",
     "gatsby-plugin-react-helmet": "3.3.10",
     "gatsby-remark-autolink-headers": "2.3.11",
-    "gatsby-remark-prismjs": "3.5.10",
+    "gatsby-remark-prismjs": "3.5.11",
     "gatsby-source-filesystem": "2.3.25",
     "gatsby-transformer-remark": "2.8.29",
     "glamor": "2.20.40",
