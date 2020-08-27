@@ -37,7 +37,7 @@
     "@dsmjs/eslint-config-react": "1.1.32",
     "@dsmjs/remark-preset-lint": "1.0.10",
     "commitlint-config-dsmjs": "1.0.19",
-    "cz-conventional-changelog": "3.2.1",
+    "cz-conventional-changelog": "3.3.0",
     "greenkeeper-lockfile": "1.15.1",
     "husky": "4.2.5",
     "netlify-cli": "2.59.1",
