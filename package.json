@@ -54,7 +54,7 @@
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-netlify": "2.3.13",
     "gatsby-plugin-react-helmet": "3.3.10",
-    "gatsby-remark-autolink-headers": "2.3.11",
+    "gatsby-remark-autolink-headers": "2.3.12",
     "gatsby-remark-prismjs": "3.5.11",
     "gatsby-source-filesystem": "2.3.28",
     "gatsby-transformer-remark": "2.8.32",
