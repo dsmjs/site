@@ -36,7 +36,7 @@
     "@dsmjs/eslint-config": "1.0.37",
     "@dsmjs/eslint-config-react": "1.1.32",
     "@dsmjs/remark-preset-lint": "1.0.10",
-    "commitlint-config-dsmjs": "1.0.19",
+    "commitlint-config-dsmjs": "1.0.20",
     "cz-conventional-changelog": "3.3.0",
     "greenkeeper-lockfile": "1.15.1",
     "husky": "4.3.0",
