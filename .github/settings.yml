@@ -4,3 +4,4 @@ repository:
   description: Gatsby site that is a WIP to replace the previous Jekyll site
   homepage: https://site.dsmjs.com/
   private: false
+  topics: hacktoberfest
