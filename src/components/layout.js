@@ -56,7 +56,11 @@ export default function SiteLayout({children}) {
             <Helmet
               titleTemplate={`%s | ${data.site.siteMetadata.title}`}
               defaultTitle={data.site.siteMetadata.title}
-            />
+            >
+              <meta name="twitter:card" content="summary" />
+              <meta name="twitter:site" content="@desmoinesjs" />
+              <meta property="og:site_name" content="dsmJS" />
+            </Helmet>
             {children}
           </Layout>
         );
