@@ -52,7 +52,7 @@
     "gatsby-link": "2.4.2",
     "gatsby-plugin-glamor": "2.5.0",
     "gatsby-plugin-google-fonts": "1.0.1",
-    "gatsby-plugin-netlify": "2.5.0",
+    "gatsby-plugin-netlify": "2.6.0",
     "gatsby-plugin-react-helmet": "3.4.0",
     "gatsby-remark-autolink-headers": "2.5.0",
     "gatsby-remark-prismjs": "3.6.0",
