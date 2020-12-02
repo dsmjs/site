@@ -1,5 +1,5 @@
 ---
-date: 2017-06-13
+date: 2017-07-18
 time:
   start: 6:00pm
   end: 7:00pm
