@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@dsmjs/components": "5.2.27",
-    "gatsby": "2.28.0",
+    "gatsby": "2.28.1",
     "gatsby-link": "2.7.0",
     "gatsby-plugin-glamor": "2.6.0",
     "gatsby-plugin-google-fonts": "1.0.1",
