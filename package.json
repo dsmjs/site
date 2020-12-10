@@ -33,7 +33,7 @@
     }
   },
   "devDependencies": {
-    "@dsmjs/eslint-config": "1.0.57",
+    "@dsmjs/eslint-config": "1.0.58",
     "@dsmjs/eslint-config-react": "1.1.52",
     "@dsmjs/remark-preset-lint": "1.0.12",
     "commitlint-config-dsmjs": "1.0.22",
