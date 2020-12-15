@@ -23,9 +23,10 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "start": "run-s develop",
+    "presnapshot": "run-s build",
     "snapshot": "npx percy snapshot public/",
     "deploy": "run-p --print-label deploy:*",
-    "deploy:netlify": "netlify deploy --dir=./public --prod"
+    "deploy:netlify": "netlify deploy --dir=./public"
   },
   "config": {
     "commitizen": {
