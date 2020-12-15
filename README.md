@@ -4,7 +4,7 @@ Primary website for the dsmJS user-group, built with [Gatsby](https://www.gatsby
 
 <!--status-badges start -->
 
-[![Build Status](https://img.shields.io/travis/com/dsmjs/site.svg?style=flat&branch=master)](https://travis-ci.com/dsmjs/site)
+[![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
 
 <!--status-badges end -->
 
@@ -44,3 +44,7 @@ you make will automatically hot-reload in the browser.
 [dependabot-link]: https://dependabot.com/
 
 [dependabot-badge]: https://badgen.net/dependabot/dsmjs/site/?icon=dependabot
+
+[github-actions-ci-link]: https://github.com/dsmjs/site/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
+
+[github-actions-ci-badge]: https://github.com/dsmjs/site/workflows/Node.js%20CI/badge.svg
