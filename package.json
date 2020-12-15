@@ -59,7 +59,7 @@
     "gatsby-remark-autolink-headers": "2.7.0",
     "gatsby-remark-prismjs": "3.9.0",
     "gatsby-source-filesystem": "2.7.0",
-    "gatsby-transformer-remark": "2.12.0",
+    "gatsby-transformer-remark": "2.13.0",
     "glamor": "2.20.40",
     "prismjs": "1.22.0",
     "prop-types": "15.7.2",
