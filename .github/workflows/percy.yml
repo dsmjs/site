@@ -1,0 +1,21 @@
+name: Percy Snapshots
+
+on: [push, pull_request]
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Read .nvmrc
+        run: 'echo ::set-output name=NVMRC::$(cat .nvmrc)'
+        id: nvm
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '${{ steps.nvm.outputs.NVMRC }}'
+      - uses: bahmutov/npm-install@v1
+      - name: Percy Snapshots
+        run: npm run snapshot
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
