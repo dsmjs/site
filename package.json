@@ -27,7 +27,8 @@
     "snapshot": "npx percy snapshot public/",
     "deploy": "run-p --print-label deploy:*",
     "predeploy:netlify": "run-s build",
-    "deploy:netlify": "netlify deploy --dir=./public"
+    "deploy:netlify": "netlify deploy --dir=./public",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
