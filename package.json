@@ -38,7 +38,7 @@
   "devDependencies": {
     "@dsmjs/eslint-config": "1.0.87",
     "@dsmjs/eslint-config-react": "1.1.61",
-    "@dsmjs/remark-preset-lint": "1.0.17",
+    "@dsmjs/remark-preset-lint": "2.0.3",
     "commitlint-config-dsmjs": "1.0.29",
     "cz-conventional-changelog": "3.3.0",
     "greenkeeper-lockfile": "1.15.1",
