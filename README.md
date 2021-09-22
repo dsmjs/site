@@ -21,6 +21,12 @@ Primary website for the dsmJS user-group, built with [Gatsby](https://www.gatsby
 
 Find common contributing details in our [organization-level contribution guide](https://github.com/dsmjs/.github/CONTRIBUTING.md)
 
+### Data Structure
+
+The data for this site is comprised of data from markdown files.
+See the [content readme](https://github.com/dsmjs/site/tree/master/content)
+for more information on the data structures.
+
 ### Dependencies
 
 ```sh
