@@ -50,7 +50,7 @@
     "remark-frontmatter": "4.0.1"
   },
   "dependencies": {
-    "@dsmjs/components": "5.2.57",
+    "@dsmjs/components": "5.2.62",
     "gatsby": "2.32.13",
     "gatsby-link": "4.2.0",
     "gatsby-plugin-glamor": "2.10.0",
