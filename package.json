@@ -52,7 +52,7 @@
   "dependencies": {
     "@dsmjs/components": "5.2.57",
     "gatsby": "2.32.13",
-    "gatsby-link": "4.6.0",
+    "gatsby-link": "4.21.0",
     "gatsby-plugin-glamor": "2.10.0",
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-netlify": "2.11.1",
